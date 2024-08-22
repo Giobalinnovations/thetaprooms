@@ -1,30 +1,35 @@
-import React, { Suspense } from "react";
-import dynamic from "next/dynamic";
+import React, { Suspense } from 'react';
+import dynamic from 'next/dynamic';
 
-import { getSortedPostsData } from "@library/posts";
+import { getSortedPostsData } from '@library/posts';
 
-import AppData from "@data/app.json";
+import AppData from '@data/app.json';
 
-import ScrollHint from "@layouts/scroll-hint/Index";
-import Divider from "@layouts/divider/Index";
+import ScrollHint from '@layouts/scroll-hint/Index';
+import Divider from '@layouts/divider/Index';
 
-import AboutSection from "@components/sections/About";
-import FeaturesSection from "@components/sections/Features";
-import ScheduleSection from "@components/sections/Schedule";
-import CountersSection from "@components/sections/Counters";
-import CallToActionSection from "@components/sections/CallToAction";
-import LatestPostsSection from "@components/sections/LatestPosts";
-import SubscribeSection from "@components/sections/Subscribe";
+import AboutSection from '@components/sections/About';
+import FeaturesSection from '@components/sections/Features';
+import ScheduleSection from '@components/sections/Schedule';
+import CountersSection from '@components/sections/Counters';
+import CallToActionSection from '@components/sections/CallToAction';
+import LatestPostsSection from '@components/sections/LatestPosts';
+import SubscribeSection from '@components/sections/Subscribe';
 
-const HeroSlider = dynamic( () => import("@components/sliders/Hero"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
+const HeroSlider = dynamic(() => import('@components/sliders/Hero'), {
+  ssr: false,
+});
+const TestimonialSlider = dynamic(
+  () => import('@components/sliders/Testimonial'),
+  { ssr: false }
+);
 
 export const metadata = {
   title: {
-		default: "Home",
-	},
+    default: 'Home',
+  },
   description: AppData.settings.siteDescription,
-}
+};
 
 async function Home() {
   const posts = await getAllPosts();
@@ -49,11 +54,11 @@ async function Home() {
             </div>
           </div>
         </div>
-        <CallToActionSection />
+        <CallToActionSection isCta={false} />
         <div className="tst-content-frame">
           <div className="tst-content-box">
             <div className="container tst-p-60-60">
-              <TestimonialSlider />
+              <TestimonialSlider isTestimonialFooter={false} />
               <Divider onlyBottom={0} />
               <Suspense fallback={<div>Loading...</div>}>
                 <LatestPostsSection posts={posts} />
@@ -66,7 +71,7 @@ async function Home() {
       </div>
     </>
   );
-};
+}
 export default Home;
 
 async function getAllPosts() {

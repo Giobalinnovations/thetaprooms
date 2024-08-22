@@ -15,7 +15,7 @@ import SwiperCore, {
   Virtual,
   Parallax,
   FreeMode,
-} from "swiper";
+} from 'swiper';
 
 SwiperCore.use([
   Mousewheel,
@@ -36,9 +36,9 @@ SwiperCore.use([
   FreeMode,
 ]);
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export const SliderProps = {
   heroSlider: {
@@ -46,7 +46,7 @@ export const SliderProps = {
     speed: 800,
     effect: 'fade',
     fadeEffect: {
-      crossFade: true
+      crossFade: true,
     },
     pagination: {
       el: '.tst-main-pagination',
@@ -104,15 +104,15 @@ export const SliderProps = {
     pagination: {
       el: '.swiper-menu-nav',
       clickable: true,
-      renderBullet: function(index, className) {
+      renderBullet: function (index, className) {
         let menu = [];
-        if ( !menu.length ) {
+        if (!menu.length) {
           const menuEl = document.querySelectorAll('.swiper-menu-nav span');
           menuEl.forEach((element, key) => {
             menu[key] = element.innerHTML;
           });
         }
-        return '<span class="' + className + '">' + (menu[index]) + '</span>';
+        return '<span class="' + className + '">' + menu[index] + '</span>';
       },
     },
   },
@@ -139,5 +139,5 @@ export const SliderProps = {
         slidesPerView: 1,
       },
     },
-  }
+  },
 };

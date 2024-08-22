@@ -1,7 +1,7 @@
 {
   "settings": {
-    "siteName": "Tastycs",
-    "siteDescription": "Cafe & Restaurant React Next.JS Template",
+    "siteName": "The Tap Room",
+    "siteDescription": "Cafe & Restaurant",
     "bgImage": "/img/bg.jpg",
     "formspreeURL": "https://formspree.io/f/YOUR_FORM_ID",
     "mailchimp": {
@@ -93,7 +93,7 @@
     },
     "about": {
       "title": "About us",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae neque illum aspernatur fugiat maiores id magni, modi, quaerat vitae. Consectetur adipisicing elit.",
+      "text": "We're more than just a restaurant; we're a beloved neighborhood spot serving up great food and creating cherished memories in Edmonton since day one. Join us for good food, good drinks, and unforgettable moments.",
       "button": {
         "link": "/menu",
         "label": "Our Menu"
@@ -104,15 +104,15 @@
       "items": [
         {
           "label": "Call",
-          "value": "+76 (094) 754 43 7I"
+          "value": "(587) 489-3520"
         },
         {
           "label": "Write",
-          "value": "your.email.inbox@here.com"
+          "value": "info@taproom.com"
         },
         {
           "label": "Find us",
-          "value": "Canada, Toronto, North Avenue 31B"
+          "value": "10184 104 St NW, Edmonton, AB T5J 1A7"
         }
       ],
       "button": {
