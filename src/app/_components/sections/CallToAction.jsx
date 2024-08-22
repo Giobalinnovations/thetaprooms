@@ -1,6 +1,9 @@
 import Data from '@data/sections/call-to-action.json';
 
-const CallToActionSection = ({ isCta = true }) => {
+// TODO: Handle issue remove isCta
+// const CallToActionSection = ({ isCta = true }) => {
+const CallToActionSection = () => {
+  const isCta = false;
   return (
     <>
       {/* call to action */}

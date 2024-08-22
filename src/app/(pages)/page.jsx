@@ -54,11 +54,13 @@ async function Home() {
             </div>
           </div>
         </div>
-        <CallToActionSection isCta={false} />
+        {/* TODO: Handle issue remove isCta */}
+        {/* <CallToActionSection isCta={false} /> */}
+        <CallToActionSection />
         <div className="tst-content-frame">
           <div className="tst-content-box">
             <div className="container tst-p-60-60">
-              <TestimonialSlider isTestimonialFooter={false} />
+              {/* <TestimonialSlider isTestimonialFooter={false} /> */}
               <Divider onlyBottom={0} />
               <Suspense fallback={<div>Loading...</div>}>
                 <LatestPostsSection posts={posts} />

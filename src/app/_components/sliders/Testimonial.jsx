@@ -6,7 +6,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Data from '@data/sliders/testimonial';
 import Link from 'next/link';
 
-const TestimonialSlider = ({ isTestimonialFooter = true }) => {
+// TODO: Handle issue isTestimonialFooter issue
+// const TestimonialSlider = ({ isTestimonialFooter = true }) => {
+const TestimonialSlider = () => {
+  // TODO: Handle issue remove isTestimonialFooter
+  const isTestimonialFooter = false;
   return (
     <>
       {/* testimonials */}
