@@ -60,7 +60,7 @@ async function Home() {
         <div className="tst-content-frame">
           <div className="tst-content-box">
             <div className="container tst-p-60-60">
-              {/* <TestimonialSlider isTestimonialFooter={false} /> */}
+              <TestimonialSlider />
               <Divider onlyBottom={0} />
               <Suspense fallback={<div>Loading...</div>}>
                 <LatestPostsSection posts={posts} />
