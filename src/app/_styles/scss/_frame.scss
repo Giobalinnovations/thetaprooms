@@ -16,7 +16,7 @@ preloader
 
   & .tst-preloader {
     position: absolute;
-    transform: scale(.5);
+    transform: scale(0.5);
     width: 80px;
     height: 80px;
     top: 70%;
@@ -90,7 +90,7 @@ marcup
   position: relative;
   z-index: 99999;
   border-radius: 10px;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.40);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.4);
   margin-left: 45px;
   margin-right: 45px;
   background-color: $bg;
@@ -147,7 +147,7 @@ menu
     padding: 0 30px;
     border-radius: 10px 10px;
     background-color: $card;
-    box-shadow: 0 5px 10px 0 rgba(26,47,51,0.20);
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.2);
     transition: $tr-md;
 
     &:after {
@@ -163,7 +163,7 @@ menu
     }
 
     & .tst-logo {
-      width: 100px;
+      width: 140px;
     }
 
     & nav {
@@ -220,7 +220,7 @@ menu
             border-radius: 5px;
             background-color: $ac;
             flex-direction: column;
-            box-shadow: 0 3px 5px 0 rgba(26,47,51,0.20);
+            box-shadow: 0 3px 5px 0 rgba(26, 47, 51, 0.2);
             transition: $tr-sm;
 
             &:before {
@@ -318,15 +318,15 @@ menu
             & > a:after {
               display: inline-block;
               vertical-align: middle;
-              font-family: "Font Awesome 5 Free";
+              font-family: 'Font Awesome 5 Free';
               font-weight: 900;
-              content: "\f078";
+              content: '\f078';
               margin-left: 0px;
               left: 5px;
               position: relative;
               top: -1px;
               width: 0px;
-              font-size: .8em;
+              font-size: 0.8em;
             }
           }
         }
@@ -390,10 +390,10 @@ menu
             & span,
             & span:after,
             & span:before {
-              content: "";
+              content: '';
               display: block;
               width: 19px;
-              height: 0.10em;
+              height: 0.1em;
               border-radius: 3px;
               background: $dl1;
               transition: 0.4s ease-in-out;
@@ -464,7 +464,7 @@ menu
         opacity: 0;
         pointer-events: none;
         transform: translateY(20px);
-        box-shadow: 0 5px 10px 0 rgba(26,47,51,0.20);
+        box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.2);
         padding: 15px 0;
         text-align: center;
         position: absolute;
@@ -587,7 +587,7 @@ scroll hint
   }
 
   & .tst-scroll-hint {
-    transform: scale(.8);
+    transform: scale(0.8);
     top: -5px;
     position: relative;
     height: 40px;
@@ -626,7 +626,7 @@ fade scroll object
 -------------------------*/
 .tst-fade-up {
   opacity: 0;
-  transform: translateY(90px) scale(.97);
+  transform: translateY(90px) scale(0.97);
   transition: $tr-lg;
 
   &.tst-active {
@@ -637,7 +637,7 @@ fade scroll object
 
 .tst-fade-down {
   opacity: 0;
-  transform: translateY(-90px) scale(.97);
+  transform: translateY(-90px) scale(0.97);
   transition: $tr-lg;
 
   &.tst-active {

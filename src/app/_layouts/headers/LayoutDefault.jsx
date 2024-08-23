@@ -59,6 +59,7 @@ const DefaultHeader = () => {
                 src={AppData.header.logo.image}
                 className="tst-logo"
                 alt={AppData.header.logo.alt}
+                style={{ filter: 'drop-shadow(0 0 10px rgba(0, 0, 0, 0.2))' }}
               />
             </Link>
             {/* menu */}
