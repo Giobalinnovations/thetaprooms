@@ -1,6 +1,6 @@
 {
   "settings": {
-    "siteName": "Tastycs",
+    "siteName": "The Tap Room",
     "siteDescription": "Cafe & Restaurant React Next.JS Template",
     "bgImage": "/img/bg.jpg",
     "formspreeURL": "https://formspree.io/f/YOUR_FORM_ID",
@@ -178,7 +178,7 @@
   "footer": {
     "logo": {
       "url": "/img/logo-sm-white.png",
-      "alt": "Tastycs"
+      "alt": "The Tap Room"
     },
     "about": {
       "title": "About us",
@@ -238,7 +238,7 @@
         "label": "See more"
       }
     },
-    "copy": "© 2024 Tastycs. All rights reserved."
+    "copy": "© 2024 The Tap Room. All rights reserved."
   },
   "social": [
     {

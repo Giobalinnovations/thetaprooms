@@ -146,9 +146,13 @@ const DefaultHeader = () => {
                 <a
                   href="#."
                   className={`tst-cart ${miniCart ? 'tst-active' : ''}`}
+                  // TODO: Uncomment this when we have a mini cart
+                  // onClick={e => {
+                  //   setMiniCart(!miniCart);
+                  //   e.preventDefault();
+                  // }}
                   onClick={e => {
-                    setMiniCart(!miniCart);
-                    e.preventDefault();
+                    return;
                   }}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
