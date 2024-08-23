@@ -27,6 +27,20 @@
       "image": "/img/faces/3.jpg",
       "text": "Discover the perfect pairing for your favorite drink with our Tap Room Special Meals! Indulge in a delightful selection of hearty dishes expertly matched with the ideal beverage.",
       "date": "02.02.21"
+    },
+    {
+      "title": "Local Favorites",
+      "name": "Paul Trueman",
+      "image": "/img/faces/3.jpg",
+      "text": "We take pride in celebrating the flavors of our region with our selection of local brews and dishes. It’s a tribute to the rich culinary heritage that makes our Tap Room feel like home.",
+      "date": "02.02.21"
+    },
+    {
+      "title": "Seasonal Selections",
+      "name": "Paul Trueman",
+      "image": "/img/faces/3.jpg",
+      "text": "Delight in our rotating seasonal offerings that showcase the best of each time of year. From refreshing summer cocktails to hearty winter brews, our seasonal selections ensure there’s always something new and exciting to try.",
+      "date": "02.02.21"
     }
   ]
 }

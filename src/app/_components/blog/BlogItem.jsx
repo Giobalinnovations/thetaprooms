@@ -23,7 +23,7 @@ const BlogItem = ({ item, popular }) => {
         </Link>
         <div className="tst-descr">
           <h5 className="tst-mb-15">
-            <a href={`/blog/${item.id}`} className="tst-anima-link">
+            <a href={`#`} className="tst-anima-link">
               {item.title}
             </a>
           </h5>

@@ -71,7 +71,7 @@ const TestimonialSlider2 = () => {
             </Link>
             <div className="tst-slider-pagination tst-testi-pagination"></div>
             <div className="tst-nav tst-right">
-              <div className="tst-label">Slider navigation</div>
+              {/* <div className="tst-label">Slider navigation</div> */}
               <div className="tst-slider-btn tst-testi-prev">
                 <i className="fas fa-arrow-left"></i>
               </div>

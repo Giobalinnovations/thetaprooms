@@ -44,17 +44,7 @@
 
       {
         "label": "Reserve",
-        "link": "/reservation",
-        "children": [
-          {
-            "label": "Reservation (Form)",
-            "link": "/reservation"
-          },
-          {
-            "label": "Reservation (OpenTable API)",
-            "link": "/reservation-2"
-          }
-        ]
+        "link": "/reservation"
       },
 
       {

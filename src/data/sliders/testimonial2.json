@@ -27,6 +27,20 @@
       "image": "/img/faces/3.jpg",
       "text": "Best sports bar in town, hands down. The vibe is always lively, and the menu has something for everyone.",
       "date": "02.02.21"
+    },
+    {
+      "title": "Exceptional Experience!",
+      "name": "Lucas Bennett",
+      "image": "/img/faces/3.jpg",
+      "text": "From the moment I walked in, I knew I was in for a treat. The drinks were perfectly crafted, I’ll definitely be back!",
+      "date": "02.02.21"
+    },
+    {
+      "title": "Highly Recommend!",
+      "name": "Sophia White",
+      "image": "/img/faces/3.jpg",
+      "text": "Whether you’re here for the food, the drinks, or just a good time, this place never disappoints.",
+      "date": "02.02.21"
     }
   ]
 }
