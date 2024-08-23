@@ -1,0 +1,32 @@
+{
+  "subtitle": "Testimonials",
+  "title": "Hear from Our Happy Guests",
+  "description": "Don’t just take our word for it—see what our visitors have to say about their Tap Room experience:",
+  "button": {
+    "link": "/about",
+    "label": "More about us"
+  },
+  "items": [
+    {
+      "title": "The Best Restaurant!",
+      "name": "Oscar Oldman",
+      "image": "/img/faces/1.jpg",
+      "text": "It is my go-to spot for great food and a fun atmosphere. The staff always makes me feel welcome, and the game nights are unbeatable! Oscar Oldman",
+      "date": "02.02.21"
+    },
+    {
+      "title": "It was very delicious!",
+      "name": "Emma Newman",
+      "image": "/img/faces/2.jpg",
+      "text": "I hosted my birthday party here, and it was amazing! The food was delicious, the service was top-notch, and everyone had a blast. Highly recommend!",
+      "date": "02.02.21"
+    },
+    {
+      "title": "I’m Delighted!",
+      "name": "Victoria Freeman",
+      "image": "/img/faces/3.jpg",
+      "text": "Best sports bar in town, hands down. The vibe is always lively, and the menu has something for everyone.",
+      "date": "02.02.21"
+    }
+  ]
+}

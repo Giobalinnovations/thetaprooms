@@ -53,14 +53,22 @@ banner
       top: 0;
       left: 0;
       right: 0;
-      background-image: linear-gradient(270deg, rgba(4,25,29 ,.1) 0%, rgba(4,25,29 ,.7) 70%);
+      background-image: linear-gradient(
+        270deg,
+        rgba(4, 25, 29, 0.1) 0%,
+        rgba(4, 25, 29, 0.7) 70%
+      );
       width: 100%;
       height: 100%;
       transition: $tr-md;
 
       &.tst-with-map {
         pointer-events: all;
-        background-image: linear-gradient(270deg, rgba(4,25,29 ,0) 0%, rgba(4,25,29 ,.7) 80%);
+        background-image: linear-gradient(
+          270deg,
+          rgba(4, 25, 29, 0) 0%,
+          rgba(4, 25, 29, 0.7) 80%
+        );
 
         &.tst-active {
           pointer-events: none;
@@ -77,7 +85,7 @@ banner
       width: 35px;
       border-radius: 50%;
       font-size: 14px;
-      background-color: rgba(242,246,247 ,.3);
+      background-color: rgba(242, 246, 247, 0.3);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -93,7 +101,11 @@ banner
       top: 0;
       left: 0;
       right: 0;
-      background-image: linear-gradient(270deg, rgba(4,25,29 ,.3) 0%, rgba(4,25,29 ,.80) 70%);
+      background-image: linear-gradient(
+        270deg,
+        rgba(4, 25, 29, 0.3) 0%,
+        rgba(4, 25, 29, 0.8) 70%
+      );
       width: 100%;
       height: 100%;
     }
@@ -249,14 +261,22 @@ call to action
       top: 0;
       left: 0;
       right: 0;
-      background-image: linear-gradient(270deg, rgba(4,25,29 ,.1) 0%, rgba(4,25,29 ,.7) 70%);
+      background-image: linear-gradient(
+        270deg,
+        rgba(4, 25, 29, 0.1) 0%,
+        rgba(4, 25, 29, 0.7) 70%
+      );
       width: 100%;
       height: 100%;
       transition: $tr-md;
 
       &.tst-with-map {
         pointer-events: all;
-        background-image: linear-gradient(270deg, rgba(4,25,29 ,0) 0%, rgba(4,25,29 ,.7) 80%);
+        background-image: linear-gradient(
+          270deg,
+          rgba(4, 25, 29, 0) 0%,
+          rgba(4, 25, 29, 0.7) 80%
+        );
 
         &.tst-active {
           pointer-events: none;
@@ -273,7 +293,7 @@ call to action
       width: 35px;
       border-radius: 50%;
       font-size: 14px;
-      background-color: rgba(242,246,247 ,.3);
+      background-color: rgba(242, 246, 247, 0.3);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -321,7 +341,7 @@ about
   overflow: hidden;
   padding-bottom: 100%;
   border-radius: 5px;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
 
   &.tst-video-cover {
     padding-bottom: 60%;
@@ -344,7 +364,7 @@ about
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(4,25,29 ,.3);
+    background-color: rgba(4, 25, 29, 0.3);
     width: 100%;
     height: 100%;
   }
@@ -362,13 +382,13 @@ about
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
     font-size: 18px;
     padding-left: 3px;
     transition: $tr-sm;
 
     &:hover {
-      filter:brightness(108%);
+      filter: brightness(108%);
       transform: scale(1.015);
     }
 
@@ -387,13 +407,13 @@ about
     margin-left: -45px;
     margin-top: -45px;
     background-color: $card;
-    box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
     animation: pulse 1s infinite;
   }
 }
 @keyframes pulse {
   0% {
-    transform: scale(.7);
+    transform: scale(0.7);
     opacity: 0.7;
   }
 
@@ -444,7 +464,7 @@ banner sm
   width: 100%;
   border-radius: 5px;
   background-size: 100%;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
 
   & .tst-cover-frame {
     position: absolute;
@@ -469,7 +489,7 @@ banner sm
       top: 0;
       left: 0;
       right: 0;
-      background-color: rgba(4,25,29 ,.5);
+      background-color: rgba(4, 25, 29, 0.5);
       width: 100%;
       height: 100%;
     }
@@ -561,7 +581,7 @@ team
   width: 100%;
   margin-bottom: 60px;
   background-color: $card;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.15);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
   border-radius: 5px;
 
   & .tst-member-portrait-frame {
@@ -603,7 +623,7 @@ team
 /*-------------------------
 testimonials
 -------------------------*/
-.tst-testimonials-slider, 
+.tst-testimonials-slider,
 body .tst-testimonials-slider {
   padding-top: 60px;
   padding-left: 15px;
@@ -616,7 +636,7 @@ body .tst-testimonials-slider {
   position: relative;
   border-radius: 5px;
   padding: 30px;
-  border: dotted 2px rgba(26,47,51 ,.2);
+  border: dotted 2px rgba(26, 47, 51, 0.2);
   margin-bottom: 60px;
   cursor: default;
   transition: $tr-md;
@@ -632,7 +652,7 @@ body .tst-testimonials-slider {
     font-family: $pf;
     font-size: 220px;
     font-style: italic;
-    text-shadow: 0 2px 7px rgba(26,47,51,0.15);
+    text-shadow: 0 2px 7px rgba(26, 47, 51, 0.15);
     transition: $tr-lg;
   }
 
@@ -657,7 +677,7 @@ body .tst-testimonials-slider {
 
     & .tst-date {
       opacity: 0.6;
-      background-color: rgba(26,47,51,0.20);
+      background-color: rgba(26, 47, 51, 0.2);
       padding: 3px 10px 1px;
       border-radius: 10px;
       font-size: 12px;
@@ -669,7 +689,7 @@ body .tst-testimonials-slider {
 .swiper-slide-active {
   & .tst-testimonial-card {
     background-color: $card;
-    box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
     border-color: transparent;
 
     & .tst-quote {
@@ -682,8 +702,7 @@ body .tst-testimonials-slider {
 blog
 -------------------------*/
 .tst-slider,
-.swiper-container.tst-slider
-{
+.swiper-container.tst-slider {
   padding: 60px 15px 0;
   margin-left: -15px;
   margin-right: -15px;
@@ -698,7 +717,7 @@ blog
 
 .tst-blog-card {
   background-color: $card;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
   border-radius: 5px;
 
   & .tst-cover-frame {
@@ -781,7 +800,7 @@ blog
 
   & .tst-date {
     opacity: 0.6;
-    background-color: rgba(26,47,51,0.20);
+    background-color: rgba(26, 47, 51, 0.2);
     padding: 3px 10px 1px;
     border-radius: 10px;
     font-size: 12px;
@@ -811,7 +830,7 @@ comments
     content: '';
     width: 1px;
     height: 100%;
-    background-color: #E4E9EA;
+    background-color: #e4e9ea;
     position: absolute;
     left: 32px;
     top: 0;
@@ -838,7 +857,7 @@ comments
     float: left;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 2px 5px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 2px 5px 0 rgba(26, 47, 51, 0.11);
 
     & img {
       width: 100%;
@@ -857,7 +876,7 @@ comments
       content: '';
       width: 60px;
       height: 1px;
-      background-color: #E4E9EA;
+      background-color: #e4e9ea;
       position: absolute;
       top: 33px;
       left: -55px;
@@ -873,7 +892,7 @@ comments
   border-radius: 5px;
   padding: 30px;
   margin-bottom: 30px;
-  box-shadow: 0 2px 5px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 2px 5px 0 rgba(26, 47, 51, 0.11);
 
   & .tst-comment-head {
     display: flex;
@@ -883,7 +902,7 @@ comments
 
     & .tst-date {
       opacity: 0.6;
-      background-color: rgba(26,47,51,0.20);
+      background-color: rgba(26, 47, 51, 0.2);
       padding: 3px 10px 1px;
       border-radius: 10px;
       font-size: 12px;
@@ -962,6 +981,7 @@ footer {
     & li {
       list-style-type: none;
       display: flex;
+      gap: 1rem;
       justify-content: space-between;
       margin-bottom: 13px;
 
@@ -982,7 +1002,7 @@ footer {
       overflow: hidden;
       border-radius: 5px;
       margin-bottom: 40px;
-      box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+      box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
 
       & img {
         display: block;
@@ -1000,7 +1020,7 @@ footer {
         width: 100%;
         height: 100%;
         background-image: none;
-        background-color: rgba(4,25,29 ,.7);
+        background-color: rgba(4, 25, 29, 0.7);
         position: absolute;
         top: 0;
         left: 0;
@@ -1012,7 +1032,7 @@ footer {
         transition: $tr-sm;
 
         & i {
-          transform: scale(.6);
+          transform: scale(0.6);
           transition: $tr-md;
         }
       }
@@ -1073,7 +1093,11 @@ popup
 .tst-popup-bg {
   opacity: 0;
   pointer-events: none;
-  background-image: linear-gradient(270deg, rgba(4,25,29 ,.9) 0%, rgba(4,25,29 ,.9) 70%);
+  background-image: linear-gradient(
+    270deg,
+    rgba(4, 25, 29, 0.9) 0%,
+    rgba(4, 25, 29, 0.9) 70%
+  );
   position: fixed;
   top: 0;
   left: 0;
@@ -1093,7 +1117,7 @@ popup
     width: 50%;
     padding: 60px 30px 30px;
     background-color: $wl1;
-    box-shadow: 0 5px 10px 0 rgba(26,47,51,0.15);
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
     border-radius: 10px;
     transition: $tr-md;
 
@@ -1191,9 +1215,9 @@ breadcrumbs
     margin-right: 15px;
 
     &:after {
-      font-family: "Font Awesome 5 Free";
+      font-family: 'Font Awesome 5 Free';
       font-weight: 900;
-      content: "\f054";
+      content: '\f054';
       font-size: 12px;
       margin-left: 15px;
     }
@@ -1267,7 +1291,7 @@ timeline
           height: 100%;
           object-fit: cover;
           object-position: center;
-          box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+          box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
         }
       }
 
@@ -1415,7 +1439,7 @@ new menu
   position: relative;
   overflow: hidden;
   display: flex;
-  border: dotted 2px rgba(26,47,51 ,.2);
+  border: dotted 2px rgba(26, 47, 51, 0.2);
   border-radius: 5px;
   margin-bottom: 30px;
 
@@ -1448,8 +1472,8 @@ new menu
       justify-content: center;
       border-radius: 50%;
       font-size: 14px;
-      box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
-      transform: scale(.5);
+      box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
+      transform: scale(0.5);
       opacity: 0;
       transition: $tr-md;
     }
@@ -1545,7 +1569,7 @@ new menu
   position: relative;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.11);
   &.tst-menu-ilust-2 {
     height: 200px;
   }
@@ -1564,7 +1588,11 @@ new menu
     top: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(270deg, rgba(4,25,29 ,.1) 0%, rgba(4,25,29 ,.7) 70%);
+    background-image: linear-gradient(
+      270deg,
+      rgba(4, 25, 29, 0.1) 0%,
+      rgba(4, 25, 29, 0.7) 70%
+    );
     width: 100%;
     height: 100%;
     transition: $tr-md;
@@ -1636,7 +1664,7 @@ sidebar
   }
   .tst-group-input.tst-group-with-btn {
     position: relative;
-    
+
     input {
       height: 50px;
       position: relative;
@@ -1670,10 +1698,10 @@ sidebar
       align-items: center;
       font-size: 16px;
       padding: 15px 0;
-      border-bottom: solid 1px #F2F3F5;
+      border-bottom: solid 1px #f2f3f5;
 
       &:first-child {
-        border-top: solid 1px #F2F3F5;
+        border-top: solid 1px #f2f3f5;
       }
     }
   }
@@ -1682,12 +1710,12 @@ sidebar
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    
+
     li {
       list-style: none;
       padding-right: 5px;
       padding-bottom: 5px;
-      
+
       a {
         display: block;
         font-size: 16px;

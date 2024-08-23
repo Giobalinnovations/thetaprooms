@@ -1,88 +1,88 @@
 {
-    "title": "They are ready to treat you",
-    "subtitle": "Team",
-    "description": "Porro eveniet, autem ipsam corrupti consectetur cum. <br>Repudiandae dignissimos fugiat sit nam.",
-    "items": [
+  "title": "They are ready to serve you",
+  "subtitle": "Meet our Team",
+  "description": "Get to know the people who make your dining experience extraordinary.",
+  "items": [
+    {
+      "image": "/img/faces/c1.jpg",
+      "name": "Sarah Thompson",
+      "role": "Executive Chef",
+      "social": [
         {
-            "image": "/img/faces/c1.jpg",
-            "name": "Paul Trueman",
-            "role": "Master Chef",
-            "social": [
-                {
-                    "icon": "fab fa-facebook-f",
-                    "link": "https://facebook.com",
-                    "title": "Facebook"
-                },
-                {
-                    "icon": "fab fa-instagram",
-                    "link": "https://instagram.com",
-                    "title": "Instagram"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "Twitter"
-                },
-                {
-                    "icon": "fab fa-youtube",
-                    "link": "https://youtube.com",
-                    "title": "Youtube"
-                }
-            ]
+          "icon": "fab fa-facebook-f",
+          "link": "https://facebook.com",
+          "title": "Facebook"
         },
         {
-            "image": "/img/faces/c2.jpg",
-            "name": "Oscar Oldman",
-            "role": "Master Chef",
-            "social": [
-                {
-                    "icon": "fab fa-facebook-f",
-                    "link": "https://facebook.com",
-                    "title": "Facebook"
-                },
-                {
-                    "icon": "fab fa-instagram",
-                    "link": "https://instagram.com",
-                    "title": "Instagram"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "Twitter"
-                },
-                {
-                    "icon": "fab fa-youtube",
-                    "link": "https://youtube.com",
-                    "title": "Youtube"
-                }
-            ]
+          "icon": "fab fa-instagram",
+          "link": "https://instagram.com",
+          "title": "Instagram"
         },
         {
-            "image": "/img/faces/c3.jpg",
-            "name": "Emma Newman",
-            "role": "Master Chef",
-            "social": [
-                {
-                    "icon": "fab fa-facebook-f",
-                    "link": "https://facebook.com",
-                    "title": "Facebook"
-                },
-                {
-                    "icon": "fab fa-instagram",
-                    "link": "https://instagram.com",
-                    "title": "Instagram"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "Twitter"
-                },
-                {
-                    "icon": "fab fa-youtube",
-                    "link": "https://youtube.com",
-                    "title": "Youtube"
-                }
-            ]
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "Twitter"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "link": "https://youtube.com",
+          "title": "Youtube"
         }
-    ]
+      ]
+    },
+    {
+      "image": "/img/faces/c2.jpg",
+      "name": "Mark Rivera",
+      "role": "General Manager",
+      "social": [
+        {
+          "icon": "fab fa-facebook-f",
+          "link": "https://facebook.com",
+          "title": "Facebook"
+        },
+        {
+          "icon": "fab fa-instagram",
+          "link": "https://instagram.com",
+          "title": "Instagram"
+        },
+        {
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "Twitter"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "link": "https://youtube.com",
+          "title": "Youtube"
+        }
+      ]
+    },
+    {
+      "image": "/img/faces/c3.jpg",
+      "name": "Emily Carter",
+      "role": "Bar Manager",
+      "social": [
+        {
+          "icon": "fab fa-facebook-f",
+          "link": "https://facebook.com",
+          "title": "Facebook"
+        },
+        {
+          "icon": "fab fa-instagram",
+          "link": "https://instagram.com",
+          "title": "Instagram"
+        },
+        {
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com",
+          "title": "Twitter"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "link": "https://youtube.com",
+          "title": "Youtube"
+        }
+      ]
+    }
+  ]
 }

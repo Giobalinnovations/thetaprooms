@@ -8,7 +8,7 @@
   "description": "Get ready to raise a glass to your fantastic Happy Hours with us!",
   "button1": {
     "link": "/menu",
-    "label": "Reservation"
+    "label": "Book A Reservation"
   },
   "button2": {
     "link": "/contact",
