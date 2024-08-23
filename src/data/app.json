@@ -135,8 +135,8 @@
         }
       ],
       "button": {
-        "link": "/history",
-        "label": "See more"
+        "link": "#",
+        "label": ""
       }
     },
     "copy": "© 2024 The Tap Room. All rights reserved."
