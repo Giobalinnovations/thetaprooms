@@ -52,13 +52,13 @@ const Menu1 = () => {
               <ProductsSlider
                 heading={{
                   subtitle: 'Menu',
-                  title: 'Special proposals',
+                  title: 'Specials That Delight Every Day',
                   description:
-                    'Porro eveniet, autem ipsam corrupti consectetur cum. <br>Repudiandae dignissimos fugiat sit nam.',
+                    'Come by today and see what’s cooking—you won’t want to miss out on these mouthwatering deals.',
                 }}
                 items={ProductsData.collection.special}
                 button={{
-                  link: '/shop',
+                  link: '#',
                   label: 'Go to online store',
                 }}
               />
