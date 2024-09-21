@@ -2,10 +2,13 @@
 
 import { SliderProps } from '@common/sliderProps';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState, useEffect } from 'react';
 
 import MenuItem from '@components/menu/MenuItem';
 
 const MenuFiltered = ({ heading = 0, categories }) => {
+  const [activeCategory, setActiveCategory] = useState(categories[0].slug);
+
   return (
     <>
       <div className="row" id="menu">
@@ -37,6 +40,8 @@ const MenuFiltered = ({ heading = 0, categories }) => {
               <span
                 key={`menu-category-item-${key}`}
                 data-slug={`${category.slug}`}
+                className={activeCategory === category.slug ? 'active' : ''}
+                onClick={() => setActiveCategory(category.slug)}
               >
                 {category.name}
               </span>
@@ -51,6 +56,9 @@ const MenuFiltered = ({ heading = 0, categories }) => {
           <Swiper
             {...SliderProps.menuSlider}
             className="swiper-container swiper-menu"
+            onSlideChange={swiper =>
+              setActiveCategory(categories[swiper.activeIndex].slug)
+            }
           >
             {categories.map((category, category_key) => (
               <SwiperSlide
@@ -63,7 +71,10 @@ const MenuFiltered = ({ heading = 0, categories }) => {
                       className="col-lg-6"
                       key={`menu-filtered-item-${category_key}-${key}`}
                     >
-                      <MenuItem item={item} />
+                      <MenuItem
+                        item={item}
+                        isActive={activeCategory === category.slug}
+                      />
                     </div>
                   ))}
                 </div>
@@ -76,4 +87,5 @@ const MenuFiltered = ({ heading = 0, categories }) => {
     </>
   );
 };
+
 export default MenuFiltered;

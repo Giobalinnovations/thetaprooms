@@ -7,7 +7,7 @@
   "title": "Cheers to your Happy Hours",
   "description": "Get ready to raise a glass to your fantastic Happy Hours with us!",
   "button1": {
-    "link": "/menu",
+    "link": "/reservation",
     "label": "Book A Reservation"
   },
   "button2": {

@@ -6,7 +6,7 @@ import 'yet-another-react-lightbox/styles.css';
 
 import CartData from '@data/cart.json';
 
-const MenuItem = ({ item }) => {
+const MenuItem = ({ item, isActive }) => {
   const [img, setImg] = useState(false);
   const [imgValue, setImgValue] = useState([]);
   const [cartTotal, setCartTotal] = useState(CartData.total);
@@ -58,7 +58,9 @@ const MenuItem = ({ item }) => {
 
   const renderItem = menuItem => (
     <div
-      className="tst-menu-book-item tst-mbi-3"
+      className={`tst-menu-book-item tst-mbi-3 ${
+        isActive ? 'active' : 'hidden'
+      }`}
       data-swiper-parallax-y="60"
       data-swiper-parallax-opacity="0"
       data-swiper-parallax-duration="1000"
@@ -139,7 +141,9 @@ const MenuItem = ({ item }) => {
     <>
       {item.items ? (
         <>
-          <h4 className="tst-mb-30">{item.title}</h4>
+          <h4 className={`tst-mb-30 ${isActive ? 'active' : 'hidden'}`}>
+            {item.title}
+          </h4>
           {item.items.map((subItem, index) => (
             <div key={index}>{renderItem(subItem)}</div>
           ))}

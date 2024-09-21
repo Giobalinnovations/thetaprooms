@@ -7,7 +7,7 @@
     "alt": "burger"
   },
   "button1": {
-    "link": "/menu",
+    "link": "/reservation",
     "label": "Book a Reservation"
   },
   "button2": {

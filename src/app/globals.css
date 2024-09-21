@@ -1,0 +1,8 @@
+.hidden {
+  display: none;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  height: 0 !important;
+  opacity: 0;
+}

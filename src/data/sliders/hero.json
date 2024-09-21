@@ -28,10 +28,6 @@
       "button1": {
         "link": "/reservation",
         "label": "Table Order"
-      },
-      "button2": {
-        "link": "/menu",
-        "label": "Online shop"
       }
     },
     {

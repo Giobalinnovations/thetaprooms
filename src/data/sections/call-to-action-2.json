@@ -7,11 +7,11 @@
     "alt": "burger"
   },
   "button1": {
-    "link": "https://www.apple.com/ua/app-store/",
+    "link": "/contact",
     "label": "Get now"
   },
   "button2": {
-    "link": "https://play.google.com/store",
+    "link": "/reservation",
     "label": "Reservation"
   }
 }
