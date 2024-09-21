@@ -14,8 +14,9 @@ const MenuItem = ({ item }) => {
   const [selectedPrices, setSelectedPrices] = useState({});
 
   useEffect(() => {
-    const cartNumberEl = document.querySelector('.tst-cart-number');
-    cartNumberEl.innerHTML = cartTotal;
+    // TODOS: uncomment
+    // const cartNumberEl = document.querySelector('.tst-cart-number');
+    // cartNumberEl.innerHTML = cartTotal;
   }, [cartTotal]);
 
   const addToCart = e => {

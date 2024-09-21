@@ -9,56 +9,56 @@
         {
           "image": "/img/menu/6.jpg",
           "title": "Jalapeno Poppers",
-          "price": "",
+          "price": "10.00",
           "currency": "$",
           "text": "Crispy Jalapenos, Cream Cheese, Spicy Aioli"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Giant Pretzel",
-          "price": "",
+          "price": "12.00",
           "currency": "$",
           "text": "Cheese Sauce, Ranch"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Buffalo Cauliflower",
-          "price": "",
+          "price": "13.00",
           "currency": "$",
           "text": "Crispy Cauliflower, Chives, Ranch"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Chicken Fingers",
-          "price": "",
+          "price": "14.00",
           "currency": "$",
           "text": "Breaded Fingers, Choose From Bbq, Buffalo, Sweet Chili, Fries"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Crispy Calamari",
-          "price": "",
+          "price": "19.00",
           "currency": "$",
           "text": "Spicy Aioli, Jalapenos"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Loaded Nachos",
-          "price": "",
+          "price": "17.00",
           "currency": "$",
           "text": "Crispy Tortillas, Three Cheese, Tomatoes, Onion, Peppers, Olives, Salsa, Sour Cream"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Slap Shot Wings",
-          "price": "",
+          "price": "18.00",
           "currency": "$",
           "text": "Choose From Lemon Pepper, BBQ, Teriyaki, Hot, Cajun, Salt & Pepper"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Spinach & Artichoke Dip",
-          "price": "",
+          "price": "19.00",
           "currency": "$",
           "text": "Whipped Cream Cheese, Artichoke, Crispy Kale, Pitta"
         }
@@ -81,30 +81,30 @@
         {
           "image": "/img/menu/6.jpg",
           "title": "Fish & Chips",
-          "price": "22.00",
+          "price": "20.00",
           "currency": "$",
           "text": "Two Beer Battered Atlantic Cod, House-made Tartar Sauce, Creamy Coleslaw, Fries"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Butter Chicken",
-          "price": "20.00",
+          "price": "21.00",
           "currency": "$",
           "text": "Marinated Chicken In Rich Butter Sauce, Jasmine Rice, Grilled Pita"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Grilled Salmon",
-          "price": "24.00",
+          "price": "26.00",
           "currency": "$",
           "text": "Atlantic Salmon, Smash Potatoes, Lemon Mustard Sauce"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Steak Frites",
-          "price": "25.00",
+          "price": "28.00",
           "currency": "$",
-          "text": "8 Oz. Aaa Sirloin Steak, Garlic Butter, Fries. Add Grilled Shrimp $8 / Add Gravy $2"
+          "text": "8 Oz. Aaa Sirloin Steak, Garlic Butter, Fries. Add Grilled Shrimp 8 / Add Gravy 2. (Make It Extra - Substitute Poutine 3 / Substitute Caesar 3)"
         }
       ]
     },
@@ -112,47 +112,47 @@
       "name": "Handhelds",
       "slug": "handhelds",
       "subtitle": "Menu",
-      "description": "All Handhelds Come With A Choice Of Market Greens Or Fries",
+      "description": "All Handhelds Come With A Choice Of Market Greens Or Fries. Add Gravy 2 / Substitute Poutine 3 / Substitute Caesar 3",
       "items": [
         {
           "image": "/img/menu/6.jpg",
           "title": "Classic Burger",
-          "price": "",
+          "price": "18.00",
           "currency": "$",
           "text": "AAA Canadian Beef Patty, Lettuce, Cheese, Tomato, Pickles, Slapshot Sauce, Toasted Brioche Bun"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Slap Shot Burger",
-          "price": "",
+          "price": "20.00",
           "currency": "$",
           "text": "AAA Canadian Beef, Bacon, Cheese, Fried Egg, Lettuce, Tomato, Pickles, Slap Shot Sauce, Toasted Brioche Bun"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Impossible Burger",
-          "price": "",
+          "price": "18.50",
           "currency": "$",
           "text": "Delicious Impossible Patty Made From Plants, Onions, Pickles, Lettuce, Spicy Aioli, Toasted Brioche Bun"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Fried Chicken Sandwich",
-          "price": "",
+          "price": "19.00",
           "currency": "$",
           "text": "Breaded Chicken, Lettuce, Tomato, Ranch Aioli, Toasted Brioche Bun"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Spicy Fried Chicken Sandwich",
-          "price": "",
+          "price": "20.00",
           "currency": "$",
           "text": "Breaded Chicken, Harbanero Hot Sauce, Lettuce, Ranch Aioli, Toasted Brioche Bun"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Grilled Chicken Club",
-          "price": "",
+          "price": "21.00",
           "currency": "$",
           "text": "Grilled Chicken Breast, Bacon, Lettuce Tomato, Baconnaise, Ciabatta"
         }
@@ -167,29 +167,28 @@
         {
           "image": "/img/menu/6.jpg",
           "title": "Classic Caesar",
-          "price": "",
+          "price": "14.00",
           "currency": "$",
           "text": "Romaine, House Caesar Dressing, Bacon, Parmesan, Croutons"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Slap Shot Cobb Salad",
-          "price": "",
+          "price": "18.00",
           "currency": "$",
           "text": "Roasted Chicken, Romaine, Avocado, Bacon, Hard Boiled Egg, Corn, Parmesan, Cucumber, Radish, Creamy Ranch Dressing"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Teriyaki Rice Bowl",
-          "price": "",
+          "price": "18.00",
           "currency": "$",
-          "text": "Vegetables, Jasmine Rice, Sesame Seeds, Signature Teriyaki Sauce, Add Shrimp(6), Add Shrimp(8)"
+          "text": "Vegetables, Jasmine Rice, Sesame Seeds, Signature Teriyaki Sauce, Add Chicken $6, Add Shrimp $8"
         },
-
         {
           "image": "/img/menu/6.jpg",
           "title": "Burrito Bowl",
-          "price": "",
+          "price": "20.00",
           "currency": "$",
           "text": "Mexican Rice, Pulled Chicken, Crisp Lettuce, Black Beans, Corn, Cheese Blend, Pico De Gallo, Lime Crema"
         }
@@ -204,14 +203,14 @@
         {
           "image": "/img/menu/6.jpg",
           "title": "Apple Pie A La Mode",
-          "price": "11.00",
+          "price": "10.00",
           "currency": "$",
           "text": "Warm Apple Pie, Vanilla Ice Cream"
         },
         {
           "image": "/img/menu/6.jpg",
           "title": "Slap Shot Berry Cheese Cake VG",
-          "price": "12.00",
+          "price": "11.00",
           "currency": "$",
           "text": "New York Style Cheese Cake, Strawberry Sauce, Whipped Cream"
         },
@@ -237,7 +236,7 @@
           "image": "/img/menu/6.jpg",
           "items": [
             {
-              "name": "Sauza Silver",
+              "name": "Cazadores Blanc",
               "price": "8.75",
               "currency": "$",
               "image": "/img/menu/6.jpg"
@@ -328,6 +327,12 @@
             },
             {
               "name": "Jameson's",
+              "price": "8.50",
+              "currency": "$",
+              "image": "/img/menu/6.jpg"
+            },
+            {
+              "name": "Jagermeister",
               "price": "8.50",
               "currency": "$",
               "image": "/img/menu/6.jpg"
