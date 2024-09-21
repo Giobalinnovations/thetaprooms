@@ -110,6 +110,7 @@ const MenuItem = ({ item }) => {
           <div className="tst-menu-book-price">
             {menuItem.price && (
               <div className="tst-price">
+                {menuItem.size && <span>{menuItem.size} | </span>}
                 <span className="tst-symbol">{menuItem.currency}</span>
                 {menuItem.price}
               </div>

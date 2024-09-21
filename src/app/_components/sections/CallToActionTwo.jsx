@@ -45,11 +45,11 @@ const CallToActionTwoSection = () => {
             </div>
             <div className="col-lg-6">
               {/* image */}
-              <img
+              {/* <img
                 src={Data.image.url}
                 alt={Data.image.alt}
                 className="tst-cta-image tst-fade-up"
-              />
+              /> */}
               {/* image end */}
             </div>
           </div>

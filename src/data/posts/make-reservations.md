@@ -2,7 +2,7 @@
 #preview
 title: 'Make reservations'
 date: '2022-04-02'
-image: "/img/blog/3.jpg"
+image: "/img/blog/1.jpg"
 categories:
     - News of the restaurant
 tags:

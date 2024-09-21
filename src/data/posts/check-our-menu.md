@@ -2,7 +2,7 @@
 #preview
 title: 'Check our menu'
 date: '2022-04-02'
-image: "/img/blog/3.jpg"
+image: "/img/blog/2.jpg"
 categories:
     - News of the restaurant
 tags:
