@@ -28,7 +28,7 @@ const DefaultFooter = () => {
   return (
     <>
       {/* footer */}
-      <footer className="tst-white tst-fade-down">
+      <footer className="tst-white pt-3 tst-fade-down">
         <div className="container">
           <div className="tst-footer-top">
             <img
@@ -51,7 +51,7 @@ const DefaultFooter = () => {
               ))}
             </div>
           </div>
-          <div className="tst-spacer tst-white"></div>
+          <div className="tst-spacer tst-white mt-2 mb-5"></div>
 
           <div className="row">
             <div className="col-lg-4">
@@ -84,7 +84,7 @@ const DefaultFooter = () => {
                     __html: AppData.footer.contact.title,
                   }}
                 />
-                <ul className="tst-footer-contact tst-text-shadow tst-mb-30">
+                <ul className="tst-footer-contact tst-text-shadow tst-mb-15">
                   {AppData.footer.contact.items.map((item, key) => (
                     <li key={`footer-contact-item-${key}`}>
                       <span className="tst-label">{item.label} :</span>
