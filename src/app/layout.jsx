@@ -1,5 +1,5 @@
 import { Josefin_Sans, Playfair_Display } from 'next/font/google';
-
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 const josefin_sans = Josefin_Sans({
   weight: ['100', '200', '300', '400', '500', '600', '700'],
   style: ['normal', 'italic'],
@@ -37,6 +37,9 @@ export const metadata = {
     template: '%s | ' + AppData.settings.siteName,
   },
   description: AppData.settings.siteDescription,
+  verification: {
+    google: '1i6kn0PqME4qprlZRoCLUz7nC9rPG7sAFIjKdFdKUcs',
+  },
 };
 
 const Layouts = ({ children }) => {
@@ -56,6 +59,8 @@ const Layouts = ({ children }) => {
         </div>
         {/*  */}
         {/* app wrapper end */}
+        <GoogleTagManager gtmId="G-4NKXHMN50Y" />
+        <GoogleAnalytics gaId="G-4NKXHMN50Y" />
       </body>
     </html>
   );
