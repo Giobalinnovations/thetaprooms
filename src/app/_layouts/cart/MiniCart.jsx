@@ -34,6 +34,7 @@ const MiniCart = () => {
       <ul className="woocommerce-mini-cart cart_list product_list_widget">
         {CartData.items.map((item, key) => (
           <li
+            key={key}
             className={`woocommerce-mini-cart-item mini_cart_item mini-cart-item-${key}`}
           >
             <a

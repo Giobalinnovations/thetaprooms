@@ -64,47 +64,290 @@
       "description": "",
       "items": [
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Classic Crispy Chicken Sandwich",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Crispy chicken breast, lettuce, tomatoes, and ranch aioli"
-        },
-        {
-          "image": "/img/menu/4.jpg",
-          "title": "Penne Alfredo",
+          "image": "/img/menu/5.jpg",
+          "title": "Penne Alfredo VG",
           "price": "18.00",
           "currency": "$",
-          "text": "Asigo parmesan creamy cheese sauce, garlic toast. (Add grilled chicken $6.00)"
+          "text": "Asiago Parmesan Creamy Cheese Sauce, Garlic Toast. Add Chicken $6 / Add Shrimp $8"
+        },
+        {
+          "image": "/img/menu/5.jpg",
+          "title": "Fish & Chips",
+          "price": "22.00",
+          "currency": "$",
+          "text": "Two Beer Battered Atlantic Cod, House-made Tartar Sauce, Creamy Coleslaw, Fries"
+        },
+        {
+          "image": "/img/menu/5.jpg",
+          "title": "Butter Chicken",
+          "price": "20.00",
+          "currency": "$",
+          "text": "Marinated Chicken In Rich Butter Sauce, Jasmine Rice, Grilled Pita"
+        },
+        {
+          "image": "/img/menu/5.jpg",
+          "title": "Grilled Salmon",
+          "price": "24.00",
+          "currency": "$",
+          "text": "Atlantic Salmon, Smash Potatoes, Lemon Mustard Sauce"
         },
         {
           "image": "/img/menu/5.jpg",
           "title": "Steak Frites",
           "price": "25.00",
           "currency": "$",
-          "text": "8 oz Sirloin steak with fries and garlic butter."
+          "text": "8 Oz. Aaa Sirloin Steak, Garlic Butter, Fries. Add Grilled Shrimp $8 / Add Gravy $2"
         }
       ]
     },
     {
-      "name": "Desserts",
-      "slug": "desserts",
+      "name": "Sweat Treats",
+      "slug": "sweat-treats",
       "subtitle": "Menu",
       "description": "",
       "items": [
         {
-          "image": "/img/menu/5.jpg",
-          "title": "Chocolate Brownie with Vanilla Ice Cream",
+          "image": "/img/menu/dessert1.jpg",
+          "title": "Apple Pie A La Mode",
           "price": "11.00",
           "currency": "$",
-          "text": ""
+          "text": "Warm Apple Pie, Vanilla Ice Cream"
         },
         {
-          "image": "/img/menu/5.jpg",
-          "title": "Coconut Cheesecake",
+          "image": "/img/menu/dessert2.jpg",
+          "title": "Slap Shot Berry Cheese Cake VG",
+          "price": "12.00",
+          "currency": "$",
+          "text": "New York Style Cheese Cake, Strawberry Sauce, Whipped Cream"
+        },
+        {
+          "image": "/img/menu/dessert3.jpg",
+          "title": "Warm Chocolate Cake VG",
           "price": "11.00",
           "currency": "$",
-          "text": ""
+          "text": "Molten Center, Oreo Crumb, Vanilla Ice Cream"
+        }
+      ]
+    },
+    {
+      "name": "Liquor",
+      "slug": "liquor",
+      "subtitle": "Menu",
+      "description": "",
+      "items": [
+        {
+          "title": "TEQUILA 1 OZ",
+          "price": "",
+          "currency": "",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Sauza Silver",
+              "price": "8.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Cazadores Reposado",
+              "price": "9.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Don Julio Blanco",
+              "price": "10.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Don Julio Reposado",
+              "price": "11.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "SCOTCH 1 OZ",
+          "price": "",
+          "currency": "",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Johnnie Walker Black",
+              "price": "10.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Glenfiddich 12 yr",
+              "price": "10.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "The Glenlivet 12 yr",
+              "price": "11.25",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Glenmorangie 10 yr",
+              "price": "11.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "COGNAC 1 OZ",
+          "price": "",
+          "currency": "",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Hennessy V.S.O.P",
+              "price": "10.75",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Hennessy X.O",
+              "price": "21.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "BAR SHOTS 1 OZ",
+          "price": "",
+          "currency": "",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Bailey's",
+              "price": "7.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Jameson's",
+              "price": "8.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "White Sambuca",
+              "price": "8.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Goldschläger",
+              "price": "8.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            },
+            {
+              "name": "Fireball",
+              "price": "8.50",
+              "currency": "$",
+              "image": "/img/menu/5.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wines",
+      "slug": "wines",
+      "subtitle": "Menu",
+      "description": "",
+      "items": [
+        {
+          "title": "WHITE WINES",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Beringer Chardonnay - California, USA",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "7.50", "currency": "$" },
+                { "size": "9 oz", "price": "10.75", "currency": "$" },
+                { "size": "Bottle", "price": "30.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Matua Sauvignon Blanc - New Zealand",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "9.50", "currency": "$" },
+                { "size": "9 oz", "price": "3.50", "currency": "$" },
+                { "size": "Bottle", "price": "38.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Cavaliere D'Oro Pinot Grigio- Venezia DOC, Italy",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "8.25", "currency": "$" },
+                { "size": "9 oz", "price": "11.75", "currency": "$" },
+                { "size": "Bottle", "price": "34.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Lindeman's Bin 90 Moscato - South Australia",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "8.25", "currency": "$" },
+                { "size": "9 oz", "price": "11.75", "currency": "$" },
+                { "size": "Bottle", "price": "34.00", "currency": "$" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RED WINES",
+          "image": "/img/menu/5.jpg",
+          "items": [
+            {
+              "name": "Beringer Cabernet Sauvignon - California, USA",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "7.50", "currency": "$" },
+                { "size": "9 oz", "price": "10.75", "currency": "$" },
+                { "size": "Bottle", "price": "30.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Wolf Blass Red Label Shiraz Cabernet - South Australia",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "9.50", "currency": "$" },
+                { "size": "9 oz", "price": "13.50", "currency": "$" },
+                { "size": "Bottle", "price": "42.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Lindeman's Bin 80 Cabernet Merlot - South Australia",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "8.50", "currency": "$" },
+                { "size": "9 oz", "price": "12.50", "currency": "$" },
+                { "size": "Bottle", "price": "36.00", "currency": "$" }
+              ]
+            },
+            {
+              "name": "Graffigna Centenario Reserve Malbec - Argentina",
+              "image": "/img/menu/5.jpg",
+              "prices": [
+                { "size": "6 oz", "price": "8.75", "currency": "$" },
+                { "size": "9 oz", "price": "12.75", "currency": "$" },
+                { "size": "Bottle", "price": "37.00", "currency": "$" }
+              ]
+            }
+          ]
         }
       ]
     }
