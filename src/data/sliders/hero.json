@@ -26,11 +26,11 @@
       },
       "text": "Celebrate in Style- Let us host your <br> next unforgettable event.",
       "button1": {
-        "link": "/reservation-2",
+        "link": "/reservation",
         "label": "Table Order"
       },
       "button2": {
-        "link": "/shop",
+        "link": "/menu",
         "label": "Online shop"
       }
     },
@@ -47,7 +47,7 @@
         "label": "Find Us"
       },
       "button2": {
-        "link": "/menu-2",
+        "link": "/menu",
         "label": "Open Menu"
       }
     }
