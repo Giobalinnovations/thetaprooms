@@ -1,63 +1,6 @@
 {
   "categories": [
     {
-      "name": "Starters",
-      "slug": "starters",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Buffalo Cauliflower (VG)",
-          "price": "13.00",
-          "currency": "$",
-          "text": "Vegan tender cauliflower tossed in Buffalo sauce (hot sauce) served with ranch."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Nachos special (VG)",
-          "price": "17.00",
-          "currency": "$",
-          "text": "GLUTEN FREE BACKED TO PERFECTION! corn tortilla chips, three cheese blends, tomatoes, onions, peppers, olives, and jalapenos served with tomato salsa and sour cream."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Calamari With Jalapenos",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Server with homemade tzatziki sauce."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Wings",
-          "price": "18.00",
-          "currency": "$",
-          "text": "Choose from lemon pepper, BBQ, ginger chili, hot, cajun, salt & pepper served ranch dip."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Chicken Kebabs",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Minced chicken marinated in our special spices and baked in a charcoal oven to perfection."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Protein Bites",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Boneless chicken or fish marinated in Himalayan spices and char grilled to perfection."
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Chilli Chicken",
-          "price": "20.00",
-          "currency": "$",
-          "text": "Crispy tender chicken bites tossed in a delecious hot, sweet."
-        }
-      ]
-    },
-    {
       "name": "Shareables",
       "slug": "shareables",
       "subtitle": "Menu",
@@ -122,9 +65,10 @@
       ]
     },
     {
-      "name": "Main",
-      "slug": "main",
+      "name": "Mains",
+      "slug": "mains",
       "subtitle": "Menu",
+
       "description": "",
       "items": [
         {
