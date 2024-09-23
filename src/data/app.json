@@ -151,16 +151,6 @@
       "link": "https://instagram.com",
       "title": "Instagram",
       "icon": "fab fa-instagram"
-    },
-    {
-      "link": "https://twitter.com",
-      "title": "Twitter",
-      "icon": "fab fa-twitter"
-    },
-    {
-      "link": "https://youtube.com",
-      "title": "Youtube",
-      "icon": "fab fa-youtube"
     }
   ]
 }

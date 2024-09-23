@@ -403,6 +403,8 @@ menu
               background: $dl1;
               transition: 0.4s ease-in-out;
               backface-visibility: hidden;
+              color: #fff;
+              background-color: #fff;
             }
 
             & span {
@@ -481,6 +483,7 @@ menu
         transition: $tr-md;
 
         &.tst-active {
+          background-color: black !important;
           opacity: 1;
           pointer-events: all;
           transform: translateY(0);
