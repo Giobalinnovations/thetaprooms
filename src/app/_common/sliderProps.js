@@ -67,6 +67,9 @@ export const SliderProps = {
     speed: 800,
     centeredSlides: true,
     loop: true,
+    autoplay: {
+      delay: 2000,
+    },
     navigation: {
       prevEl: '.tst-testi-prev',
       nextEl: '.tst-testi-next',

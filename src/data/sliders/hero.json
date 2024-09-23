@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "Welcome to Tap Room <br> Restaurant & Bar",
-      "subtitle": "Tap Room Restaurant and Bar",
+      "subtitle": "Tap Room Bar & Grill",
       "image": {
         "url": "/img/banners/banner-1.jpg",
         "alt": "cover"
@@ -19,7 +19,7 @@
     },
     {
       "title": "Book Your <br> Next Event",
-      "subtitle": "Tap Room Restaurant and Bar",
+      "subtitle": "Tap Room Bar & Grill",
       "image": {
         "url": "/img/banners/banner-2.jpg",
         "alt": "cover"
@@ -32,7 +32,7 @@
     },
     {
       "title": "Make a reservation",
-      "subtitle": "Tap Room Restaurant and Bar",
+      "subtitle": "Tap Room Bar & Grill",
       "image": {
         "url": "/img/banners/banner-3.jpg",
         "alt": "cover"

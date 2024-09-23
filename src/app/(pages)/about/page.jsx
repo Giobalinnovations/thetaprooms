@@ -92,7 +92,7 @@ async function About() {
               <Divider />
               <FeaturesSection />
               <Divider />
-              <TeamSection />
+              {/* <TeamSection /> */}
               <Divider />
               <ScheduleSection />
               <Divider onlyBottom={0} />

@@ -22,7 +22,7 @@
         "minutes": "00 am"
       },
       "to": {
-        "hours": "10",
+        "hours": "11",
         "minutes": "00 pm"
       }
     },
@@ -33,8 +33,8 @@
         "minutes": "00 am"
       },
       "to": {
-        "hours": "02",
-        "minutes": "00 am"
+        "hours": "11",
+        "minutes": "00 pm"
       }
     }
   ]
