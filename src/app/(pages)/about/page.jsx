@@ -85,6 +85,7 @@ async function About() {
                     ))}
                   </div>
                   {/* about text end */}
+                  {/*  */}
                 </div>
               </div>
               <AwardsSection />
