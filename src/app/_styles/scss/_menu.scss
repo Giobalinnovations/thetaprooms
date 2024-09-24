@@ -8,7 +8,7 @@ default card
 -------------------------*/
 .tst-menu-book-item {
   background-color: $card;
-  box-shadow: 0 5px 10px 0 rgba(26,47,51,0.15);
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
   border-radius: 5px;
   margin-bottom: 60px;
 
@@ -126,11 +126,13 @@ default card
       width: 130px;
       border-radius: 5px;
       padding-bottom: 0;
-      box-shadow: 0 5px 10px 0 rgba(26,47,51,0.15);
+      box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
     }
 
     & .tst-menu-book-descr {
-      width: calc(100% - 130px);
+      // TODO: UNCOMMENT AFTER MENUS IMAGES AVAILABLE also remove flex 1 if needed
+      // width: calc(100% - 130px);
+      flex: 1;
       padding: 0 0 0 30px;
       display: flex;
       justify-content: space-between;
@@ -141,6 +143,8 @@ default card
 
       & .tst-menu-book-bottom {
         width: 140px;
+        // TODO: REMOVE FLex shrik - 0 if needed
+        flex-shrink: 0;
         flex-direction: column;
         justify-content: space-around;
 

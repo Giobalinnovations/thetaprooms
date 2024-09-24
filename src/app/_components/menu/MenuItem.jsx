@@ -65,7 +65,7 @@ const MenuItem = ({ item, isActive }) => {
       data-swiper-parallax-opacity="0"
       data-swiper-parallax-duration="1000"
     >
-      <a
+      {/* <a
         href={menuItem.image}
         data-fancybox="menu"
         className="tst-item-cover-frame tst-cursor-zoom"
@@ -79,7 +79,7 @@ const MenuItem = ({ item, isActive }) => {
       >
         <img src={menuItem.image} alt={menuItem.title || menuItem.name} />
         <span className="tst-overlay"></span>
-      </a>
+      </a> */}
       <div className="tst-menu-book-descr">
         <div className="tst-menu-book-name">
           <h5 className="tst-mb-15">{menuItem.title || menuItem.name}</h5>
