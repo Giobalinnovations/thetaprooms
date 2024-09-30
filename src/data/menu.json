@@ -50,7 +50,7 @@
         },
         {
           "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Wings",
+          "title": "Taproom Wings",
           "price": "18.00",
           "currency": "$",
           "text": "Choose From Lemon Pepper, BBQ, Teriyaki, Hot, Cajun, Salt & Pepper"
@@ -123,7 +123,7 @@
         },
         {
           "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Burger",
+          "title": "Taproom Burger",
           "price": "20.00",
           "currency": "$",
           "text": "AAA Canadian Beef, Bacon, Cheese, Fried Egg, Lettuce, Tomato, Pickles, Taproom Sauce, Toasted Brioche Bun"
@@ -173,7 +173,7 @@
         },
         {
           "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Cobb Salad",
+          "title": "Taproom Cobb Salad",
           "price": "18.00",
           "currency": "$",
           "text": "Roasted Chicken, Romaine, Avocado, Bacon, Hard Boiled Egg, Corn, Parmesan, Cucumber, Radish, Creamy Ranch Dressing"
@@ -209,7 +209,7 @@
         },
         {
           "image": "/img/menu/6.jpg",
-          "title": "Slap Shot Berry Cheese Cake VG",
+          "title": "Taproom Berry Cheese Cake VG",
           "price": "11.00",
           "currency": "$",
           "text": "New York Style Cheese Cake, Strawberry Sauce, Whipped Cream"
