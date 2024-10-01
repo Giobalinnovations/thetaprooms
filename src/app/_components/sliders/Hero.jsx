@@ -50,10 +50,18 @@ const HeroSlider = () => {
                         className="tst-suptitle tst-suptitle-mobile-center tst-text-shadow tst-white-2 tst-mb-15"
                         dangerouslySetInnerHTML={{ __html: item.subtitle }}
                       />
-                      <h1
-                        className="tst-white-2 tst-text-shadow tst-mb-30"
-                        dangerouslySetInnerHTML={{ __html: item.title }}
-                      />
+                      {key ? (
+                        <h2
+                          className="tst-white-2 tst-text-shadow tst-mb-30"
+                          dangerouslySetInnerHTML={{ __html: item.title }}
+                        />
+                      ) : (
+                        <h1
+                          className="tst-white-2 tst-text-shadow tst-mb-30"
+                          dangerouslySetInnerHTML={{ __html: item.title }}
+                        />
+                      )}
+
                       <div
                         className="tst-text tst-text-shadow tst-text-lg tst-white-2 tst-mb-30"
                         dangerouslySetInnerHTML={{ __html: item.text }}
