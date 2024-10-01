@@ -10,7 +10,7 @@ import ContactInfoSection from '@components/sections/ContactInfo';
 import ReservationFormSection from '@components/sections/ReservationForm';
 
 export const metadata = {
-  title: `Menu – The Tap Rooms | Edmonton Cocktail & Wine Bars`,
+  title: `Reserve Your Table – The Tap Rooms`,
   description: `Looking for a venue to host a special event or neighbourhood hangout in Edmonton? Look no further, You can reserve your table at The Tap Rooms for a memorable experience.`,
 
   metadataBase: new URL('https://www.thetaprooms.com'),

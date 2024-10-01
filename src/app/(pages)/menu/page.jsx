@@ -21,6 +21,8 @@ export const metadata = {
   title: `Menu – The Tap Rooms | Edmonton Cocktail & Wine Bars`,
   description: `Explore The Tap Room's menu with Traditional Dishes. You can enjoy the Shareables, burger, sandwich, cheese cakes, cocktails & wines at the same place.`,
 
+  keywords: `101 bar and grill Edmonton, restaurant in Edmonton, best restaurants Edmonton, bars downtown Edmonton, best cocktail bars Edmonton, cocktail bars Edmonton, cool bars in Edmonton, edmonton cocktail bars, top bars in Edmonton, wine bars edmonton`,
+
   metadataBase: new URL('https://www.thetaprooms.com'),
   alternates: {
     canonical: '/menu',

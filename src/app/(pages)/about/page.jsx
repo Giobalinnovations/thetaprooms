@@ -28,6 +28,8 @@ export const metadata = {
   title: `About US – The Tap Rooms | Bars in North Edmonton`,
   description: `Welcome to the Tap Rooms, known as one of the best bars, restaurants, and sports bars in Edmonton. It's a space where stories are shared, memories are made, and friendships flourish. Join us for an engaging conversation, a taste of Smiths Falls hospitality, and a great experience at Edmonton's favorite sports bar.`,
 
+  keywords: `sports bars Edmonton, bars in west Edmonton, best sports bars Edmonton, the tap room edmonton`,
+
   metadataBase: new URL('https://www.thetaprooms.com'),
   alternates: {
     canonical: '/about',

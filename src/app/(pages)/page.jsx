@@ -28,6 +28,8 @@ export const metadata = {
   title: `The Tap Rooms in Edmonton | bars near me Edmonton`,
   description: `Welcome to the Tap Rooms, its known as one of the best bars & restaurant in Edmonton. it’s a space where stories are shared, memories are made, and friendships flourish. Join us for a engaging conversation, and a taste of Smiths Falls hospitality.`,
 
+  keywords: `The Tap Rooms, bars near me Edmonton, bar in Edmonton, bars in edmonton Canada, best bars Edmonton, edmonton bars near me`,
+
   metadataBase: new URL('https://www.thetaprooms.com'),
   alternates: {
     canonical: '/',
