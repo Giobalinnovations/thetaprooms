@@ -25,10 +25,13 @@ const TestimonialSlider = dynamic(
 );
 
 export const metadata = {
-  title: {
-    default: 'Home',
+  title: `The Tap Rooms in Edmonton | bars near me Edmonton`,
+  description: `Welcome to the Tap Rooms, its known as one of the best bars & restaurant in Edmonton. it’s a space where stories are shared, memories are made, and friendships flourish. Join us for a engaging conversation, and a taste of Smiths Falls hospitality.`,
+
+  metadataBase: new URL('https://www.thetaprooms.com'),
+  alternates: {
+    canonical: '/',
   },
-  description: AppData.settings.siteDescription,
 };
 
 async function Home() {

@@ -18,10 +18,13 @@ const ProductsSlider = dynamic(() => import('@components/sliders/Products'), {
 });
 
 export const metadata = {
-  title: {
-    default: 'Menu',
+  title: `Menu – The Tap Rooms | Edmonton Cocktail & Wine Bars`,
+  description: `Explore The Tap Room's menu with Traditional Dishes. You can enjoy the Shareables, burger, sandwich, cheese cakes, cocktails & wines at the same place.`,
+
+  metadataBase: new URL('https://www.thetaprooms.com'),
+  alternates: {
+    canonical: '/menu',
   },
-  description: AppData.settings.siteDescription,
 };
 
 const Menu1 = () => {
