@@ -15,7 +15,7 @@ scrollbar
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,7 +24,7 @@ scrollbar
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  filter:brightness(108%);
+  filter: brightness(108%);
 }
 /*-------------------------
 typography
@@ -51,7 +51,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, rgba(4,25,29 ,.7) 0%, rgba(4,25,29 ,.7) 20%);
+    background-image: linear-gradient(
+      180deg,
+      rgba(4, 25, 29, 0.7) 0%,
+      rgba(4, 25, 29, 0.7) 20%
+    );
   }
 }
 
@@ -136,10 +140,27 @@ h6 {
     font-size: 18px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: $dl1;
   }
-  h1, h2, h3, h4, h5, h6, ul, ol, iframe, object, table, blockquote, p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  iframe,
+  object,
+  table,
+  blockquote,
+  p {
     margin-bottom: 30px;
 
     &:last-child {
@@ -186,7 +207,7 @@ h6 {
   font-family: $sf;
   margin: 0 15px 0 0;
   transition: $tr-sm;
-
+  cursor: pointer;
   &:hover {
     opacity: 1;
     color: $ac;
@@ -263,7 +284,7 @@ h6 {
 }
 
 .tst-text-shadow {
-  text-shadow: 0 5px 20px rgba(26,47,51,0.95);
+  text-shadow: 0 5px 20px rgba(26, 47, 51, 0.95);
 }
 
 .tst-white {
@@ -435,7 +456,7 @@ buttons
   white-space: nowrap;
 
   &.tst-btn-shadow {
-    box-shadow: 0 3px 5px 0 rgba(26,47,51,0.30);
+    box-shadow: 0 3px 5px 0 rgba(26, 47, 51, 0.3);
   }
 
   &:before {
@@ -456,12 +477,12 @@ buttons
   }
 
   &:hover {
-    filter:brightness(108%);
+    filter: brightness(108%);
     transform: scale(1.015);
 
     &:before {
       bottom: -5px;
-      transform: scale(.95);
+      transform: scale(0.95);
     }
   }
 
@@ -492,7 +513,7 @@ buttons
   }
   &.tst-btn-2 {
     background-color: #f2f3f5;
-    
+
     &:hover {
       filter: brightness(95%);
     }
@@ -506,7 +527,7 @@ buttons
     &:before {
       display: none;
     }
-    
+
     & .tst-icon {
       background-color: #f2f3f5;
       position: relative;
@@ -519,7 +540,7 @@ buttons
       margin: 0;
       width: 55px;
       box-shadow: 0 0 0 2px #fff;
-      transform: scale(.95);
+      transform: scale(0.95);
     }
   }
 
@@ -546,12 +567,12 @@ buttons
     }
 
     &:hover {
-      filter:brightness(95%);
+      filter: brightness(95%);
       transform: scale(1.015);
-  
+
       &:before {
         bottom: -5px;
-        transform: scale(.95);
+        transform: scale(0.95);
       }
     }
   }
@@ -596,7 +617,7 @@ form {
     height: 50px;
     margin-bottom: 30px;
     padding: 0 20px;
-    box-shadow: 0 2px 5px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 2px 5px 0 rgba(26, 47, 51, 0.11);
     color: $dl1 !important;
     opacity: 1;
     font-size: 14px;
@@ -621,7 +642,7 @@ form {
     height: 50px;
     margin-bottom: 30px;
     padding: 0 20px;
-    box-shadow: 0 2px 5px 0 rgba(26,47,51,0.11);
+    box-shadow: 0 2px 5px 0 rgba(26, 47, 51, 0.11);
     color: $dl1 !important;
     opacity: 1;
     font-size: 14px;
@@ -644,7 +665,7 @@ textarea {
   width: 100%;
   margin-bottom: 30px;
   padding: 15px 20px;
-  box-shadow: 0 2px 5px 0 rgba(26,47,51,0.11);
+  box-shadow: 0 2px 5px 0 rgba(26, 47, 51, 0.11);
   color: $dl1 !important;
   opacity: 1;
   font-size: 14px;
@@ -729,7 +750,7 @@ spaces
   li {
     margin-right: 10px;
     list-style: none;
-    
+
     a {
       position: relative;
       background-color: $wl2;
@@ -833,7 +854,7 @@ radio
   margin-bottom: 15px;
 }
 
-.tst-radio input[type=radio] {
+.tst-radio input[type='radio'] {
   position: absolute;
   visibility: hidden;
 }
@@ -877,10 +898,10 @@ radio
   transition: $tr-sm;
 }
 
-.tst-radio input[type=radio]:checked ~ .tst-check {
+.tst-radio input[type='radio']:checked ~ .tst-check {
   border-color: $ac;
 }
 
-.tst-radio input[type=radio]:checked ~ .tst-check::before {
+.tst-radio input[type='radio']:checked ~ .tst-check::before {
   background: $ac;
 }

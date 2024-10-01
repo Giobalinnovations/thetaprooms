@@ -39,16 +39,16 @@ const AboutSection = () => {
               {Data.button.label}
             </Link>
 
-            {/* {AppData.social.map((item, key) => (
-              <a
-                href={item.url}
+            {AppData.social.map((item, key) => (
+              <Link
+                href={item.link ?? ''}
                 className="tst-icon-link"
                 title={item.title}
                 key={`about-social-item-${key}`}
               >
                 <i className={item.icon}></i>
-              </a>
-            ))} */}
+              </Link>
+            ))}
           </div>
           {/* about text end */}
         </div>
