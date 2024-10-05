@@ -1,698 +1,802 @@
 {
-  "categories": [
-    {
-      "name": "Shareables",
-      "slug": "shareables",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
+    "categories": [
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Jalapeno Poppers",
-          "price": "10.00",
-          "currency": "$",
-          "text": "Crispy Jalapenos, Cream Cheese, Spicy Aioli"
+            "name": "Shareables",
+            "slug": "shareables",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Jalapeno Poppers",
+                    "price": "10.00",
+                    "currency": "$",
+                    "text": "Crispy Jalapenos, Cream Cheese, Spicy Aioli"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Giant Pretzel",
+                    "price": "12.00",
+                    "currency": "$",
+                    "text": "Cheese Sauce, Ranch"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Buffalo Cauliflower",
+                    "price": "13.00",
+                    "currency": "$",
+                    "text": "Crispy Cauliflower, Chives, Ranch"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Chicken Fingers",
+                    "price": "14.00",
+                    "currency": "$",
+                    "text": "Breaded Fingers, Choose From Bbq, Buffalo, Sweet Chili, Fries"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Crispy Calamari",
+                    "price": "19.00",
+                    "currency": "$",
+                    "text": "Spicy Aioli, Jalapenos"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Loaded Nachos",
+                    "price": "17.00",
+                    "currency": "$",
+                    "text": "Crispy Tortillas, Three Cheese, Tomatoes, Onion, Peppers, Olives, Salsa, Sour Cream"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Taproom Wings",
+                    "price": "18.00",
+                    "currency": "$",
+                    "text": "Choose From Lemon Pepper, BBQ, Teriyaki, Hot, Cajun, Salt & Pepper"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Spinach & Artichoke Dip",
+                    "price": "19.00",
+                    "currency": "$",
+                    "text": "Whipped Cream Cheese, Artichoke, Crispy Kale, Pitta"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Giant Pretzel",
-          "price": "12.00",
-          "currency": "$",
-          "text": "Cheese Sauce, Ranch"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Buffalo Cauliflower",
-          "price": "13.00",
-          "currency": "$",
-          "text": "Crispy Cauliflower, Chives, Ranch"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Chicken Fingers",
-          "price": "14.00",
-          "currency": "$",
-          "text": "Breaded Fingers, Choose From Bbq, Buffalo, Sweet Chili, Fries"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Crispy Calamari",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Spicy Aioli, Jalapenos"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Loaded Nachos",
-          "price": "17.00",
-          "currency": "$",
-          "text": "Crispy Tortillas, Three Cheese, Tomatoes, Onion, Peppers, Olives, Salsa, Sour Cream"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Taproom Wings",
-          "price": "18.00",
-          "currency": "$",
-          "text": "Choose From Lemon Pepper, BBQ, Teriyaki, Hot, Cajun, Salt & Pepper"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Spinach & Artichoke Dip",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Whipped Cream Cheese, Artichoke, Crispy Kale, Pitta"
-        }
-      ]
-    },
-    {
-      "name": "Mains",
-      "slug": "mains",
-      "subtitle": "Menu",
+            "name": "Mains",
+            "slug": "mains",
+            "subtitle": "Menu",
 
-      "description": "",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Penne Alfredo VG",
-          "price": "18.00",
-          "currency": "$",
-          "text": "Asiago Parmesan Creamy Cheese Sauce, Garlic Toast. Add Chicken $6 / Add Shrimp $8"
+            "description": "",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Penne Alfredo VG",
+                    "price": "18.00",
+                    "currency": "$",
+                    "text": "Asiago Parmesan Creamy Cheese Sauce, Garlic Toast. Add Chicken $6 / Add Shrimp $8"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Fish & Chips",
+                    "price": "20.00",
+                    "currency": "$",
+                    "text": "Two Beer Battered Atlantic Cod, House-made Tartar Sauce, Creamy Coleslaw, Fries"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Butter Chicken",
+                    "price": "21.00",
+                    "currency": "$",
+                    "text": "Marinated Chicken In Rich Butter Sauce, Jasmine Rice, Grilled Pita"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Grilled Salmon",
+                    "price": "26.00",
+                    "currency": "$",
+                    "text": "Atlantic Salmon, Smash Potatoes, Lemon Mustard Sauce"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Steak Frites",
+                    "price": "28.00",
+                    "currency": "$",
+                    "text": "8 Oz. Aaa Sirloin Steak, Garlic Butter, Fries. Add Grilled Shrimp 8 / Add Gravy 2. (Make It Extra - Substitute Poutine 3 / Substitute Caesar 3)"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Fish & Chips",
-          "price": "20.00",
-          "currency": "$",
-          "text": "Two Beer Battered Atlantic Cod, House-made Tartar Sauce, Creamy Coleslaw, Fries"
+            "name": "Handhelds",
+            "slug": "handhelds",
+            "subtitle": "Menu",
+            "description": "All Handhelds Come With A Choice Of Market Greens Or Fries. Add Gravy 2 / Substitute Poutine 3 / Substitute Caesar 3",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Classic Burger",
+                    "price": "18.00",
+                    "currency": "$",
+                    "text": "AAA Canadian Beef Patty, Lettuce, Cheese, Tomato, Pickles, Taproom Sauce, Toasted Brioche Bun"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Taproom Burger",
+                    "price": "20.00",
+                    "currency": "$",
+                    "text": "AAA Canadian Beef, Bacon, Cheese, Fried Egg, Lettuce, Tomato, Pickles, Taproom Sauce, Toasted Brioche Bun"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Impossible Burger",
+                    "price": "18.50",
+                    "currency": "$",
+                    "text": "Delicious Impossible Patty Made From Plants, Onions, Pickles, Lettuce, Spicy Aioli, Toasted Brioche Bun"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Fried Chicken Sandwich",
+                    "price": "19.00",
+                    "currency": "$",
+                    "text": "Breaded Chicken, Lettuce, Tomato, Ranch Aioli, Toasted Brioche Bun"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Spicy Fried Chicken Sandwich",
+                    "price": "20.00",
+                    "currency": "$",
+                    "text": "Breaded Chicken, Harbanero Hot Sauce, Lettuce, Ranch Aioli, Toasted Brioche Bun"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Grilled Chicken Club",
+                    "price": "21.00",
+                    "currency": "$",
+                    "text": "Grilled Chicken Breast, Bacon, Lettuce Tomato, Baconnaise, Ciabatta"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Butter Chicken",
-          "price": "21.00",
-          "currency": "$",
-          "text": "Marinated Chicken In Rich Butter Sauce, Jasmine Rice, Grilled Pita"
+            "name": "Bowls",
+            "slug": "bowls",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Classic Caesar",
+                    "price": "14.00",
+                    "currency": "$",
+                    "text": "Romaine, House Caesar Dressing, Bacon, Parmesan, Croutons"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Taproom Cobb Salad",
+                    "price": "18.00",
+                    "currency": "$",
+                    "text": "Roasted Chicken, Romaine, Avocado, Bacon, Hard Boiled Egg, Corn, Parmesan, Cucumber, Radish, Creamy Ranch Dressing"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Teriyaki Rice Bowl",
+                    "price": "18.00",
+                    "currency": "$",
+                    "text": "Vegetables, Jasmine Rice, Sesame Seeds, Signature Teriyaki Sauce, Add Chicken $6, Add Shrimp $8"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Burrito Bowl",
+                    "price": "20.00",
+                    "currency": "$",
+                    "text": "Mexican Rice, Pulled Chicken, Crisp Lettuce, Black Beans, Corn, Cheese Blend, Pico De Gallo, Lime Crema"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Grilled Salmon",
-          "price": "26.00",
-          "currency": "$",
-          "text": "Atlantic Salmon, Smash Potatoes, Lemon Mustard Sauce"
+            "name": "Sweet Treats",
+            "slug": "sweat-treats",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Apple Pie A La Mode",
+                    "price": "10.00",
+                    "currency": "$",
+                    "text": "Warm Apple Pie, Vanilla Ice Cream"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Taproom Berry Cheese Cake VG",
+                    "price": "11.00",
+                    "currency": "$",
+                    "text": "New York Style Cheese Cake, Strawberry Sauce, Whipped Cream"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "Warm Chocolate Cake VG",
+                    "price": "11.00",
+                    "currency": "$",
+                    "text": "Molten Center, Oreo Crumb, Vanilla Ice Cream"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Steak Frites",
-          "price": "28.00",
-          "currency": "$",
-          "text": "8 Oz. Aaa Sirloin Steak, Garlic Butter, Fries. Add Grilled Shrimp 8 / Add Gravy 2. (Make It Extra - Substitute Poutine 3 / Substitute Caesar 3)"
-        }
-      ]
-    },
-    {
-      "name": "Handhelds",
-      "slug": "handhelds",
-      "subtitle": "Menu",
-      "description": "All Handhelds Come With A Choice Of Market Greens Or Fries. Add Gravy 2 / Substitute Poutine 3 / Substitute Caesar 3",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Classic Burger",
-          "price": "18.00",
-          "currency": "$",
-          "text": "AAA Canadian Beef Patty, Lettuce, Cheese, Tomato, Pickles, Taproom Sauce, Toasted Brioche Bun"
+            "name": "Liquor",
+            "slug": "liquor",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "title": "TEQUILA 1 OZ",
+                    "price": "",
+                    "currency": "",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Cazadores Blanc",
+                            "price": "8.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Cazadores Reposado",
+                            "price": "9.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Don Julio Blanco",
+                            "price": "10.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Don Julio Reposado",
+                            "price": "11.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "SCOTCH 1 OZ",
+                    "price": "",
+                    "currency": "",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Johnnie Walker Black",
+                            "price": "10.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Glenfiddich 12 yr",
+                            "price": "10.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "The Glenlivet 12 yr",
+                            "price": "11.25",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Glenmorangie 10 yr",
+                            "price": "11.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "COGNAC 1 OZ",
+                    "price": "",
+                    "currency": "",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Hennessy V.S.O.P",
+                            "price": "10.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Hennessy X.O",
+                            "price": "21.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "BAR SHOTS 1 OZ",
+                    "price": "",
+                    "currency": "",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Bailey's",
+                            "price": "7.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Jameson's",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Jagermeister",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "White Sambuca",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Goldschläger",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "Fireball",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Taproom Burger",
-          "price": "20.00",
-          "currency": "$",
-          "text": "AAA Canadian Beef, Bacon, Cheese, Fried Egg, Lettuce, Tomato, Pickles, Taproom Sauce, Toasted Brioche Bun"
+            "name": "Wines",
+            "slug": "wines",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "title": "WHITE WINES",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Beringer Chardonnay - California, USA",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "7.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "10.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "30.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Matua Sauvignon Blanc - New Zealand",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "9.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "3.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "38.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cavaliere D'Oro Pinot Grigio- Venezia DOC, Italy",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "8.25",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "11.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "34.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Lindeman's Bin 90 Moscato - South Australia",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "8.25",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "11.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "34.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "RED WINES",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Beringer Cabernet Sauvignon - California, USA",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "7.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "10.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "30.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Wolf Blass Red Label Shiraz Cabernet - South Australia",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "9.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "13.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "42.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Lindeman's Bin 80 Cabernet Merlot - South Australia",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "8.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "12.50",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "36.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Graffigna Centenario Reserve Malbec - Argentina",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "6 oz",
+                                    "price": "8.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "9 oz",
+                                    "price": "12.75",
+                                    "currency": "$"
+                                },
+                                {
+                                    "size": "Bottle",
+                                    "price": "37.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "SPARKLING WINES",
+                    "image": "/img/menu/6.jpg",
+                    "items": [
+                        {
+                            "name": "Mionetto Prosecco - Treviso, Italy",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "200 ml Bottle",
+                                    "price": "15.75",
+                                    "currency": "$"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Veuve Clicquot Brut - Champagne, France",
+                            "image": "/img/menu/6.jpg",
+                            "prices": [
+                                {
+                                    "size": "Bottle",
+                                    "price": "99.00",
+                                    "currency": "$"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Impossible Burger",
-          "price": "18.50",
-          "currency": "$",
-          "text": "Delicious Impossible Patty Made From Plants, Onions, Pickles, Lettuce, Spicy Aioli, Toasted Brioche Bun"
+            "name": "Signature Cocktails",
+            "slug": "signature-cocktails",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "TAP ROOM CAESAR",
+                    "price": "9.00",
+                    "currency": "$",
+                    "text": "Smirnoff Vodka, Mott's Clamato, Pickle Juice, Worcestershire, Tabasco, Extreme Bean, Lime",
+                    "size": "1 oz"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "THE STONEHOUSE SOUR",
+                    "price": "10.50",
+                    "currency": "$",
+                    "text": "Crown Royal, Lemon Juice, Simple Syrup and A Maraschino Cherry",
+                    "size": "1.5 oz"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "PURPLE RAIN",
+                    "price": "9.50",
+                    "currency": "$",
+                    "text": "Smirnoff Raspberry Vodka, Blue Curacao, 7-up, Cranberry Juice",
+                    "size": "1.5 oz"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "CLASSIC OLD FASHIONED",
+                    "price": "12.50",
+                    "currency": "$",
+                    "text": "Buffalo Trace Bourbon, Simple Syrup, Bitters, Orange Peel",
+                    "size": "2 oz"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "BLUE HAWAIIAN",
+                    "price": "9.50",
+                    "currency": "$",
+                    "text": "Captain Morgan White Rum, Malibu Coconut Rum, Blue Curacao, Pineapple Juice",
+                    "size": "1.5 oz"
+                },
+                {
+                    "image": "/img/menu/6.jpg",
+                    "title": "The DON'S MARGHERITA",
+                    "price": "12.50",
+                    "currency": "$",
+                    "text": "Don Julio Blanco, Triple Sec, Lime Juice, Salt Rim, Served Frozen Or On The Rocks",
+                    "size": "1.5 oz"
+                }
+            ]
         },
         {
-          "image": "/img/menu/6.jpg",
-          "title": "Fried Chicken Sandwich",
-          "price": "19.00",
-          "currency": "$",
-          "text": "Breaded Chicken, Lettuce, Tomato, Ranch Aioli, Toasted Brioche Bun"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Spicy Fried Chicken Sandwich",
-          "price": "20.00",
-          "currency": "$",
-          "text": "Breaded Chicken, Harbanero Hot Sauce, Lettuce, Ranch Aioli, Toasted Brioche Bun"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Grilled Chicken Club",
-          "price": "21.00",
-          "currency": "$",
-          "text": "Grilled Chicken Breast, Bacon, Lettuce Tomato, Baconnaise, Ciabatta"
-        }
-      ]
-    },
-    {
-      "name": "Bowls",
-      "slug": "bowls",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Classic Caesar",
-          "price": "14.00",
-          "currency": "$",
-          "text": "Romaine, House Caesar Dressing, Bacon, Parmesan, Croutons"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Taproom Cobb Salad",
-          "price": "18.00",
-          "currency": "$",
-          "text": "Roasted Chicken, Romaine, Avocado, Bacon, Hard Boiled Egg, Corn, Parmesan, Cucumber, Radish, Creamy Ranch Dressing"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Teriyaki Rice Bowl",
-          "price": "18.00",
-          "currency": "$",
-          "text": "Vegetables, Jasmine Rice, Sesame Seeds, Signature Teriyaki Sauce, Add Chicken $6, Add Shrimp $8"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Burrito Bowl",
-          "price": "20.00",
-          "currency": "$",
-          "text": "Mexican Rice, Pulled Chicken, Crisp Lettuce, Black Beans, Corn, Cheese Blend, Pico De Gallo, Lime Crema"
-        }
-      ]
-    },
-    {
-      "name": "Sweat Treats",
-      "slug": "sweat-treats",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Apple Pie A La Mode",
-          "price": "10.00",
-          "currency": "$",
-          "text": "Warm Apple Pie, Vanilla Ice Cream"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Taproom Berry Cheese Cake VG",
-          "price": "11.00",
-          "currency": "$",
-          "text": "New York Style Cheese Cake, Strawberry Sauce, Whipped Cream"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "Warm Chocolate Cake VG",
-          "price": "11.00",
-          "currency": "$",
-          "text": "Molten Center, Oreo Crumb, Vanilla Ice Cream"
-        }
-      ]
-    },
-    {
-      "name": "Liquor",
-      "slug": "liquor",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "title": "TEQUILA 1 OZ",
-          "price": "",
-          "currency": "",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Cazadores Blanc",
-              "price": "8.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Cazadores Reposado",
-              "price": "9.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Don Julio Blanco",
-              "price": "10.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Don Julio Reposado",
-              "price": "11.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
-        },
-        {
-          "title": "SCOTCH 1 OZ",
-          "price": "",
-          "currency": "",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Johnnie Walker Black",
-              "price": "10.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Glenfiddich 12 yr",
-              "price": "10.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "The Glenlivet 12 yr",
-              "price": "11.25",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Glenmorangie 10 yr",
-              "price": "11.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
-        },
-        {
-          "title": "COGNAC 1 OZ",
-          "price": "",
-          "currency": "",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Hennessy V.S.O.P",
-              "price": "10.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Hennessy X.O",
-              "price": "21.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
-        },
-        {
-          "title": "BAR SHOTS 1 OZ",
-          "price": "",
-          "currency": "",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Bailey's",
-              "price": "7.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Jameson's",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Jagermeister",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "White Sambuca",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Goldschläger",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "Fireball",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Wines",
-      "slug": "wines",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "title": "WHITE WINES",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Beringer Chardonnay - California, USA",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "7.50", "currency": "$" },
-                { "size": "9 oz", "price": "10.75", "currency": "$" },
-                { "size": "Bottle", "price": "30.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Matua Sauvignon Blanc - New Zealand",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "9.50", "currency": "$" },
-                { "size": "9 oz", "price": "3.50", "currency": "$" },
-                { "size": "Bottle", "price": "38.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Cavaliere D'Oro Pinot Grigio- Venezia DOC, Italy",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "8.25", "currency": "$" },
-                { "size": "9 oz", "price": "11.75", "currency": "$" },
-                { "size": "Bottle", "price": "34.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Lindeman's Bin 90 Moscato - South Australia",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "8.25", "currency": "$" },
-                { "size": "9 oz", "price": "11.75", "currency": "$" },
-                { "size": "Bottle", "price": "34.00", "currency": "$" }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "RED WINES",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Beringer Cabernet Sauvignon - California, USA",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "7.50", "currency": "$" },
-                { "size": "9 oz", "price": "10.75", "currency": "$" },
-                { "size": "Bottle", "price": "30.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Wolf Blass Red Label Shiraz Cabernet - South Australia",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "9.50", "currency": "$" },
-                { "size": "9 oz", "price": "13.50", "currency": "$" },
-                { "size": "Bottle", "price": "42.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Lindeman's Bin 80 Cabernet Merlot - South Australia",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "8.50", "currency": "$" },
-                { "size": "9 oz", "price": "12.50", "currency": "$" },
-                { "size": "Bottle", "price": "36.00", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Graffigna Centenario Reserve Malbec - Argentina",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "6 oz", "price": "8.75", "currency": "$" },
-                { "size": "9 oz", "price": "12.75", "currency": "$" },
-                { "size": "Bottle", "price": "37.00", "currency": "$" }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "SPARKLING WINES",
-          "image": "/img/menu/6.jpg",
-          "items": [
-            {
-              "name": "Mionetto Prosecco - Treviso, Italy",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "200 ml Bottle", "price": "15.75", "currency": "$" }
-              ]
-            },
-            {
-              "name": "Veuve Clicquot Brut - Champagne, France",
-              "image": "/img/menu/6.jpg",
-              "prices": [
-                { "size": "Bottle", "price": "99.00", "currency": "$" }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Signature Cocktails",
-      "slug": "signature-cocktails",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "TAP ROOM CAESAR",
-          "price": "9.00",
-          "currency": "$",
-          "text": "Smirnoff Vodka, Mott's Clamato, Pickle Juice, Worcestershire, Tabasco, Extreme Bean, Lime",
-          "size": "1 oz"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "THE STONEHOUSE SOUR",
-          "price": "10.50",
-          "currency": "$",
-          "text": "Crown Royal, Lemon Juice, Simple Syrup and A Maraschino Cherry",
-          "size": "1.5 oz"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "PURPLE RAIN",
-          "price": "9.50",
-          "currency": "$",
-          "text": "Smirnoff Raspberry Vodka, Blue Curacao, 7-up, Cranberry Juice",
-          "size": "1.5 oz"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "CLASSIC OLD FASHIONED",
-          "price": "12.50",
-          "currency": "$",
-          "text": "Buffalo Trace Bourbon, Simple Syrup, Bitters, Orange Peel",
-          "size": "2 oz"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "BLUE HAWAIIAN",
-          "price": "9.50",
-          "currency": "$",
-          "text": "Captain Morgan White Rum, Malibu Coconut Rum, Blue Curacao, Pineapple Juice",
-          "size": "1.5 oz"
-        },
-        {
-          "image": "/img/menu/6.jpg",
-          "title": "The DON'S MARGHERITA",
-          "price": "12.50",
-          "currency": "$",
-          "text": "Don Julio Blanco, Triple Sec, Lime Juice, Salt Rim, Served Frozen Or On The Rocks",
-          "size": "1.5 oz"
-        }
-      ]
-    },
-    {
-      "name": "Beers & Coolers",
-      "slug": "beers-and-coolers",
-      "subtitle": "Menu",
-      "description": "",
-      "items": [
-        {
-          "title": "BOTTLES & TINS",
-          "items": [
-            {
-              "name": "BUDWEISER",
-              "size": "341 ml",
-              "price": "6.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "BUDLIGHT",
-              "size": "341 ml",
-              "price": "6.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "KOKANEE",
-              "size": "341 ml",
-              "price": "6.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "CANADIAN MOLSON",
-              "size": "341 ml",
-              "price": "6.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "COORS LIGHT",
-              "size": "341 ml",
-              "price": "6.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "ALEXANDER KEITH'S",
-              "size": "341 ml",
-              "price": "7.00",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
+            "name": "Beers & Coolers",
+            "slug": "beers-and-coolers",
+            "subtitle": "Menu",
+            "description": "",
+            "items": [
+                {
+                    "title": "BOTTLES & TINS",
+                    "items": [
+                        {
+                            "name": "BUDWEISER",
+                            "size": "341 ml",
+                            "price": "6.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "BUDLIGHT",
+                            "size": "341 ml",
+                            "price": "6.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "KOKANEE",
+                            "size": "341 ml",
+                            "price": "6.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "CANADIAN MOLSON",
+                            "size": "341 ml",
+                            "price": "6.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "COORS LIGHT",
+                            "size": "341 ml",
+                            "price": "6.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "ALEXANDER KEITH'S",
+                            "size": "341 ml",
+                            "price": "7.00",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
 
-            {
-              "name": "GUINNESS",
-              "size": "440 ml",
-              "price": "9.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "CORONA",
-              "size": "330 ml",
-              "price": "8.00",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "STELLA ARTOIS",
-              "size": "330 ml",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "SMIRNOFF ICE",
-              "size": "330 ml",
-              "price": "7.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "TWISTED TEA",
-              "size": "355 ml",
-              "price": "7.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "OKANAGAN APPLE CIDER",
+                        {
+                            "name": "GUINNESS",
+                            "size": "440 ml",
+                            "price": "9.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "CORONA",
+                            "size": "330 ml",
+                            "price": "8.00",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "STELLA ARTOIS",
+                            "size": "330 ml",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "SMIRNOFF ICE",
+                            "size": "330 ml",
+                            "price": "7.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "TWISTED TEA",
+                            "size": "355 ml",
+                            "price": "7.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "OKANAGAN APPLE CIDER",
 
-              "size": "355 ml",
-              "price": "7.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "WHITE CLAW",
-              "size": "355 ml",
-              "price": "8.00",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "BUDWEISER ZERO",
-              "size": "341 ml",
-              "price": "5.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
-        },
-        {
-          "title": "DRAUGHT BEER | 16 OZ",
-          "items": [
-            {
-              "name": "GRANVILLE ISLAND - KITSILANO JUICY IPA",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "SLEEMAN HONEY BROWN",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
+                            "size": "355 ml",
+                            "price": "7.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "WHITE CLAW",
+                            "size": "355 ml",
+                            "price": "8.00",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "BUDWEISER ZERO",
+                            "size": "341 ml",
+                            "price": "5.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "DRAUGHT BEER | 16 OZ",
+                    "items": [
+                        {
+                            "name": "GRANVILLE ISLAND - KITSILANO JUICY IPA",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "SLEEMAN HONEY BROWN",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
 
-            {
-              "name": "GRANVILLE ISLAND – PEACH SOUR",
-              "price": "8.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "WILD ROSE BIG HOODOO",
-              "price": "8.00",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "BANDED PEAK – MOUNT CRUSHMORE PILSNER",
-              "price": "8.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "OKANAGAN SPRING 1516",
-              "price": "8.00",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "BANDED PEAK- MICROBURST HAZY IPA",
-              "price": "8.75",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            },
-            {
-              "name": "SAPPORO",
-              "price": "9.50",
-              "currency": "$",
-              "image": "/img/menu/6.jpg"
-            }
-          ]
+                        {
+                            "name": "GRANVILLE ISLAND – PEACH SOUR",
+                            "price": "8.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "WILD ROSE BIG HOODOO",
+                            "price": "8.00",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "BANDED PEAK – MOUNT CRUSHMORE PILSNER",
+                            "price": "8.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "OKANAGAN SPRING 1516",
+                            "price": "8.00",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "BANDED PEAK- MICROBURST HAZY IPA",
+                            "price": "8.75",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        },
+                        {
+                            "name": "SAPPORO",
+                            "price": "9.50",
+                            "currency": "$",
+                            "image": "/img/menu/6.jpg"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
