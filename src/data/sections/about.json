@@ -1,14 +1,14 @@
 {
-  "image": {
-    "url": "/img/about.jpg",
-    "alt": "cover"
-  },
-  "video": "https://www.youtube.com/watch?v=SXJqEnauNaY",
-  "button": {
-    "link": "/about",
-    "label": "Read more"
-  },
-  "title": "A Tradition of Excellence",
-  "subtitle": "About us",
-  "description": "We don't just serve food here; we are a cherished neighborhood hangout that has been giving Edmonton everything we've got since the heart of its inception. At first, there was a single aim: to make a place where people can come together to eat good food, drink good drinks, and share beautiful memories. Still, we are carrying on that same tradition of excellence and having an honest enthusiasm for what we do."
+    "image": {
+        "url": "/img/about.jpg",
+        "alt": "cover"
+    },
+    "video": "https://www.youtube.com/watch?v=SXJqEnauNaY",
+    "button": {
+        "link": "/about",
+        "label": "Read more"
+    },
+    "title": "A Tradition of Excellence",
+    "subtitle": "About us",
+    "description": "We don't just serve food here; we are a cherished neighborhood hangout that has been giving Edmonton everything we've got since the heart of its inception. At first, there was a single aim: to make a place where people can come together to eat good food, drink good drinks, and share beautiful memories. Still, we are carrying on that same tradition of excellence and having an honest enthusiasm for what we do."
 }
