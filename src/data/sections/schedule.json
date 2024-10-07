@@ -1,41 +1,41 @@
 {
-  "image": {
-    "url": "/img/menu/4.jpg",
-    "alt": "cover"
-  },
-  "subtitle": "About us",
-  "title": "Cheers to your Happy Hours",
-  "description": "Get ready to raise a glass to your fantastic Happy Hours with us!",
-  "button1": {
-    "link": "/reservation",
-    "label": "Book A Reservation"
-  },
-  "button2": {
-    "link": "/contact",
-    "label": "Contact us"
-  },
-  "items": [
-    {
-      "label": "Monday to Friday",
-      "from": {
-        "hours": "11",
-        "minutes": "00 am"
-      },
-      "to": {
-        "hours": "11",
-        "minutes": "00 pm"
-      }
+    "image": {
+        "url": "/img/img6.webp",
+        "alt": "cover"
     },
-    {
-      "label": "Friday to Saturday",
-      "from": {
-        "hours": "11",
-        "minutes": "00 am"
-      },
-      "to": {
-        "hours": "11",
-        "minutes": "00 pm"
-      }
-    }
-  ]
+    "subtitle": "About us",
+    "title": "Cheers to your Happy Hours",
+    "description": "Get ready to raise a glass to your fantastic Happy Hours with us!",
+    "button1": {
+        "link": "/reservation",
+        "label": "Book A Reservation"
+    },
+    "button2": {
+        "link": "/contact",
+        "label": "Contact us"
+    },
+    "items": [
+        {
+            "label": "Monday to Friday",
+            "from": {
+                "hours": "11",
+                "minutes": "00 am"
+            },
+            "to": {
+                "hours": "11",
+                "minutes": "00 pm"
+            }
+        },
+        {
+            "label": "Friday to Saturday",
+            "from": {
+                "hours": "11",
+                "minutes": "00 am"
+            },
+            "to": {
+                "hours": "11",
+                "minutes": "00 pm"
+            }
+        }
+    ]
 }
