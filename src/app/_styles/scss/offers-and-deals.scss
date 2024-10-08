@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+$oilers-blue: #041e42;
+$oilers-orange: #ff4c00;
+$background-color: #f4f4f4;
+$text-color: #333;
+$highlight-color: #ffd700;
+
+.offers-and-deals-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: $background-color;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  h1 {
+    color: $oilers-blue;
+    margin-bottom: 20px;
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .intro {
+    text-align: center;
+    color: $text-color;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.offers-and-deals {
+  .game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .game-deal {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    &.upcoming {
+      border: 2px solid $highlight-color;
+    }
+
+    &.oilers-game {
+      border: 2px solid $oilers-orange;
+    }
+
+    .game-info {
+      padding: 20px;
+      background-color: $oilers-blue;
+      color: white;
+
+      h3 {
+        margin: 0 0 15px 0;
+        font-size: 1.4em;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fas {
+          margin-right: 10px;
+          color: $oilers-orange;
+        }
+      }
+
+      .teams {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .team {
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+
+        .vs {
+          color: $oilers-orange;
+          font-weight: bold;
+        }
+      }
+
+      .date-time {
+        display: flex;
+        justify-content: space-around;
+        font-style: italic;
+
+        p {
+          display: flex;
+          align-items: center;
+
+          .fas {
+            margin-right: 5px;
+            color: $oilers-orange;
+          }
+        }
+      }
+    }
+
+    .deal-info {
+      padding: 20px;
+      background-color: white;
+
+      h4 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: $oilers-orange;
+        margin-bottom: 10px;
+      }
+
+      .deal-description {
+        font-size: 1.1em;
+        color: $text-color;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .offers-and-deals {
+    .game-list {
+      grid-template-columns: 1fr;
+    }
+  }
+}
