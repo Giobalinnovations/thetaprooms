@@ -28,7 +28,7 @@ export default function GameDeal({ deal, isUpcoming, isOilersGame }) {
       </div>
       <div className="deal-info">
         <h4>Special Offer</h4>
-        <p className="deal-description">{deal.deal}</p>
+        <p className="deal-description">{deal?.deal || 'To be Announced'}</p>
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ const MOCK_DEALS = [
     awayTeam: 'Oilers',
     date: '2023-10-13',
     time: '6:00 p.m.',
-    deal: 'Half price wings and Domestic beers $6 for opening week',
+    deal: '',
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const MOCK_DEALS = [
     awayTeam: 'Oilers',
     date: '2023-10-15',
     time: '8:00 p.m.',
-    deal: 'Half price wings and Domestic beers $6 for opening week',
+    deal: '',
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const MOCK_DEALS = [
     awayTeam: 'Predators',
     date: '2023-10-17',
     time: '6:00 p.m.',
-    deal: 'Half price wings and Domestic beers $6 for opening week',
+    deal: '',
   },
 ];
 
