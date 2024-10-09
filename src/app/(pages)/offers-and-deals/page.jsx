@@ -5,6 +5,10 @@ export const metadata = {
   title: 'Exclusive Offers and Deals - The Tap Rooms',
   description:
     "Don't miss out on these amazing deals for upcoming games at The Tap Rooms!",
+  metadataBase: new URL('https://www.thetaprooms.com'),
+  alternates: {
+    canonical: '/offers-and-deals',
+  },
 };
 
 export default function OffersAndDealsPage() {
