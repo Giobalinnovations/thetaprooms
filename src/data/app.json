@@ -49,8 +49,11 @@
 
       {
         "label": "Contact",
-        "link": "/contact",
-        "children": 0
+        "link": "/contact"
+      },
+      {
+        "label": "Offers",
+        "link": "/offers-and-deals"
       }
     ],
     "onepage": [
