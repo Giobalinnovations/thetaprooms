@@ -1,51 +1,51 @@
 {
-    "items": [
-        {
-            "title": "Welcome to The Tap Room <br> Restaurant & Bar",
-            "subtitle": "Tap Room Bar & Grill",
-            "image": {
-                "url": "/img/banners/banner-1.jpg",
-                "alt": "cover"
-            },
-            "text": "Where great food, refreshing drinks, and unforgettable <br> memories come together.",
-            "button1": {
-                "link": "/reservation",
-                "label": "Reservation"
-            },
-            "button2": {
-                "link": "/menu",
-                "label": "Open Menu"
-            }
-        },
-        {
-            "title": "Book Your <br> Next Event",
-            "subtitle": "Tap Room Bar & Grill",
-            "image": {
-                "url": "/img/banners/banner-2.jpg",
-                "alt": "cover"
-            },
-            "text": "Celebrate in Style- Let us host your <br> next unforgettable event.",
-            "button1": {
-                "link": "/reservation",
-                "label": "Table Order"
-            }
-        },
-        {
-            "title": "Make a reservation",
-            "subtitle": "Tap Room Bar & Grill",
-            "image": {
-                "url": "/img/banners/banner-3.jpg",
-                "alt": "cover"
-            },
-            "text": "Reserve your table today for an experience <br> you won’t want to miss.",
-            "button1": {
-                "link": "/contact",
-                "label": "Find Us"
-            },
-            "button2": {
-                "link": "/menu",
-                "label": "Open Menu"
-            }
-        }
-    ]
+  "items": [
+    {
+      "title": "Welcome to The Tap Room <br> Restaurant & Bar",
+      "subtitle": "Tap Room Bar & Grill",
+      "image": {
+        "url": "/img/banners/banner-1.jpg",
+        "alt": "The Tap Room, Restaurant & Bar - Cover"
+      },
+      "text": "Where great food, refreshing drinks, and unforgettable <br> memories come together.",
+      "button1": {
+        "link": "/reservation",
+        "label": "Reservation"
+      },
+      "button2": {
+        "link": "/menu",
+        "label": "Open Menu"
+      }
+    },
+    {
+      "title": "Book Your <br> Next Event",
+      "subtitle": "Tap Room Bar & Grill",
+      "image": {
+        "url": "/img/banners/banner-2.jpg",
+        "alt": "The Tap Room - Cover"
+      },
+      "text": "Celebrate in Style- Let us host your <br> next unforgettable event.",
+      "button1": {
+        "link": "/reservation",
+        "label": "Table Order"
+      }
+    },
+    {
+      "title": "Make a reservation",
+      "subtitle": "Tap Room Bar & Grill",
+      "image": {
+        "url": "/img/banners/banner-3.jpg",
+        "alt": "The Tap Room, Edmonton - Cover"
+      },
+      "text": "Reserve your table today for an experience <br> you won’t want to miss.",
+      "button1": {
+        "link": "/contact",
+        "label": "Find Us"
+      },
+      "button2": {
+        "link": "/menu",
+        "label": "Open Menu"
+      }
+    }
+  ]
 }

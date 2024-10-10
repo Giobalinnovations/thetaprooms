@@ -4,7 +4,7 @@
   "description": "Create your ideal night with us, where every element is designed to fit your desires.",
   "image": {
     "url": "/img/reserved.png",
-    "alt": "burger"
+    "alt": "Reserve your Table"
   },
   "button1": {
     "link": "/reservation",

@@ -1,10 +1,10 @@
 {
-    "video": {
-        "title": "Promo video",
-        "link": "https://www.youtube.com/watch?v=SXJqEnauNaY"
-    },
-    "image": {
-        "url": "/img/img5.webp",
-        "alt": "video cover"
-    }
+  "video": {
+    "title": "Promo video",
+    "link": "https://www.youtube.com/watch?v=SXJqEnauNaY"
+  },
+  "image": {
+    "url": "/img/img5.webp",
+    "alt": "Bar & Restaurants in Edmonton"
+  }
 }
