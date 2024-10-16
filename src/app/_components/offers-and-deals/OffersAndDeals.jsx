@@ -22,7 +22,7 @@ const MOCK_DEALS = [
         id: 3,
         homeTeam: "Oilers",
         awayTeam: "Stars",
-        date: "2024-10-18",
+        date: "2024-10-19",
         time: "2:00 p.m.",
         deal: "To be Announced",
     },
