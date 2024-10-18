@@ -39,8 +39,8 @@ export const metadata = {
 async function About() {
   const Content = {
     subtitle: 'About us',
-    title: 'A Tradition of Excellence',
-    description: `We don't just serve food here; we are a cherished neighborhood hangout that has been giving Edmonton everything we've got since the heart of its inception. At first, there was a single aim: to make a place where people can come together to eat good food, drink good drinks, and share beautiful memories. Still, we are carrying on that same tradition of excellence and having an honest enthusiasm for what we do.`,
+    title: `A Standard of Excellence in Edmonton's Bar Scene`,
+    description: `Since we opened, the Tap Room has been the neighborhood’s go-to for excellent cuisine, beverages, and treasured memories. Not only are we a bar in Edmonton, but we are a community hub where people come to enjoy wonderful times and amazing company. The Tap Room is still among the greatest bars near you in Edmonton, Canada, with a perfect mix of energetic environment, first-rate service, and a love of what we do.`,
   };
 
   return (
@@ -65,12 +65,14 @@ async function About() {
                 <div className="col-lg-12">
                   {/* about text */}
                   <div className="tst-mb-60 text-center">
-                    <div
-                      className="tst-suptitle tst-suptitle-center tst-mb-15"
-                      dangerouslySetInnerHTML={{
-                        __html: Content.subtitle,
-                      }}
-                    />
+                    <div className="tst-suptitle tst-suptitle-center tst-mb-15">
+                      <h2
+                        dangerouslySetInnerHTML={{
+                          __html: Content.subtitle,
+                        }}
+                      />
+                    </div>
+
                     <h3
                       className="tst-mb-30"
                       dangerouslySetInnerHTML={{

@@ -224,6 +224,10 @@ h6 {
   margin: 0;
   padding-left: 45px;
 
+  h2 {
+    font-size: 12px !important;
+  }
+
   &:before {
     content: '';
     height: 4px;

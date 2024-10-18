@@ -1,22 +1,22 @@
 {
   "subtitle": "Our Expertise",
-  "title": "Why people choose us?",
+  "title": "Why choose us?",
   "description": "Unmatched Experience, Unforgettable Flavors",
   "items": [
     {
       "icon": "/img/icons/1.svg",
       "title": "Vibrant Atmosphere",
-      "text": "The warm and inviting vibe of Tap Room, which embodies a lively bar and cozy dining areas, creates the optimal place to unwind and enjoy."
+      "text": "The Tap Room provides the perfect environment to relax after a demanding day with its cozy dining sections and friendly bar. Among the top-rated bars in Edmonton, this one is well-known for its energetic yet friendly atmosphere."
     },
     {
       "icon": "/img/icons/2.svg",
       "title": "Sports Central",
-      "text": "We’re the ultimate destination for sports fans. With multiple large screens, you’ll never miss a moment of the action."
+      "text": "Are you passionate about sports? On our huge displays, catch every game. One of the greatest sports bars in West Edmonton, we are the last stop for sports enthusiasts."
     },
     {
       "icon": "/img/icons/3.svg",
       "title": "Community Hub",
-      "text": "We’re proud to be a place where locals gather, celebrate, and make memories. At Tap Room, everyone feels at home."
+      "text": "We take immense delight in becoming a neighbourhood favourite. Everyone feels comfortable at The Tap Room, whether your visit is frequent or first-time. Organise your next get-together at The Tap Rooms, your first choice for an Edmonton 101 pub and grill. Celebrate in style with our great cuisine, beverages, and ambience."
     }
   ]
 }
