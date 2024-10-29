@@ -1,22 +1,22 @@
 {
-  "subtitle": "Have Questions?",
-  "title": "Contact Us",
-  "description": "Feel free to reach out to us with any questions or concerns. Our team is here to help you in any way we can!",
-  "items": [
-    {
-      "icon": "/img/icons/4.svg",
-      "title": "Write Us",
-      "text": "<a href='mailto:info@taproom.com'>info@taproom.com</a>"
-    },
-    {
-      "icon": "/img/icons/5.svg",
-      "title": "Call Us",
-      "text": "<a href='tel:+(587) 489-3520'>+(587) 489-3520</a>"
-    },
-    {
-      "icon": "/img/icons/6.svg",
-      "title": "Visit Us",
-      "text": "10184 104 St NW, Edmonton, AB T5J 1A7"
-    }
-  ]
+    "subtitle": "Have Questions?",
+    "title": "Contact Us",
+    "description": "Feel free to reach out to us with any questions or concerns. Our team is here to help you in any way we can!",
+    "items": [
+        {
+            "icon": "/img/icons/4.svg",
+            "title": "Write Us",
+            "text": "<a href='mailto:info@thetaprooms.com'>info@thetaprooms.com</a>"
+        },
+        {
+            "icon": "/img/icons/5.svg",
+            "title": "Call Us",
+            "text": "<a href='tel:+(587) 489-3520'>+(587) 489-3520</a>"
+        },
+        {
+            "icon": "/img/icons/6.svg",
+            "title": "Visit Us",
+            "text": "10184 104 St NW, Edmonton, AB T5J 1A7"
+        }
+    ]
 }
