@@ -7,7 +7,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function sendContactEmail(formData) {
   try {
-    //
     const firstName = formData.get('first_name');
     const lastName = formData.get('last_name');
     const email = formData.get('email');
