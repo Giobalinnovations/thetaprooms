@@ -16,7 +16,7 @@ export async function sendReservationEmail(formData) {
     const message = formData.get('message');
 
     const data = await resend.emails.send({
-      from: 'Reservations <onboarding@resend.dev>',
+      from: 'Reservations <reservation@thetaprooms.com>',
       to: [email],
       subject: `Reservation Request from ${firstName} ${lastName}`,
       react: ReservationEmail({
