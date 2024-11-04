@@ -1,157 +1,172 @@
 'use client';
 
 import { Formik } from 'formik';
-import AppData from '@data/app.json';
+import * as Yup from 'yup';
+import { sendContactEmail } from '../../_actions/contact';
+
+const validationSchema = Yup.object().shape({
+  first_name: Yup.string().required('First name is required'),
+  last_name: Yup.string().required('Last name is required'),
+  email: Yup.string().email('Invalid email').required('Email is required'),
+  phone: Yup.string().required('Phone number is required'),
+  message: Yup.string().required('Message is required'),
+});
 
 const ContactForm = () => {
   return (
-    <>
-      {/* contact form */}
-      <Formik
-        initialValues={{
-          email: '',
-          phone: '',
-          first_name: '',
-          last_name: '',
-          message: '',
-        }}
-        validate={values => {
-          const errors = {};
-          if (!values.email) {
-            errors.email = 'Required';
-          } else if (
-            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-          ) {
-            errors.email = 'Invalid email address';
-          }
-          return errors;
-        }}
-        onSubmit={(values, { setSubmitting }) => {
-          const form = document.getElementById('contactForm');
-          const status = document.getElementById('contactFormStatus');
-          const data = new FormData();
+    <Formik
+      initialValues={{
+        email: '',
+        phone: '',
+        first_name: '',
+        last_name: '',
+        message: '',
+      }}
+      validationSchema={validationSchema}
+      onSubmit={async (values, { setSubmitting, resetForm, setStatus }) => {
+        try {
+          const formData = new FormData();
+          Object.keys(values).forEach(key => {
+            formData.append(key, values[key]);
+          });
 
-          data.append('first_name', values.first_name);
-          data.append('last_name', values.last_name);
-          data.append('email', values.email);
-          data.append('phone', values.phone);
-          data.append('message', values.message);
+          const result = await sendContactEmail(formData);
 
-          fetch(form.action, {
-            method: 'POST',
-            body: data,
-            headers: {
-              Accept: 'application/json',
-            },
-          })
-            .then(response => {
-              if (response.ok) {
-                status.innerHTML = '<h5>Thanks for your submission!</h5>';
-                form.reset();
-              } else {
-                response.json().then(data => {
-                  if (Object.hasOwn(data, 'errors')) {
-                    status.innerHTML =
-                      "<h5 style='color:red;'>" +
-                      data['errors'].map(error => error['message']).join(', ') +
-                      '</h5>';
-                  } else {
-                    status.innerHTML =
-                      "<h5 style='color:red;'>Oops! There was a problem submitting your form</h5>";
-                  }
-                });
-              }
-            })
-            .catch(error => {
-              status.innerHTML =
-                "<h5 style='color:red;'>Oops! There was a problem submitting your form</h5>";
+          if (result.success) {
+            setStatus({ success: 'Message sent successfully!' });
+            resetForm();
+          } else {
+            setStatus({
+              error: 'Failed to send message. Please try again.',
             });
-
+          }
+        } catch (error) {
+          setStatus({
+            error: 'An unexpected error occurred. Please try again.',
+          });
+        } finally {
           setSubmitting(false);
-        }}
-      >
-        {({
-          values,
-          errors,
-          touched,
-          handleChange,
-          handleBlur,
-          handleSubmit,
-          isSubmitting,
-          /* and other goodies */
-        }) => (
-          <form
-            onSubmit={handleSubmit}
-            id="contactForm"
-            action={AppData.settings.formspreeURL}
-          >
-            <div className="row">
-              <div className="col-lg-6">
+        }
+      }}
+    >
+      {({
+        values,
+        errors,
+        touched,
+        handleChange,
+        handleBlur,
+        handleSubmit,
+        isSubmitting,
+        status,
+      }) => (
+        <form onSubmit={handleSubmit} className="contact-form">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="form-group">
                 <input
                   type="text"
                   placeholder="First Name"
                   name="first_name"
-                  required="required"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.first_name}
+                  style={{
+                    border:
+                      errors.first_name && touched.first_name
+                        ? '1px solid red'
+                        : '',
+                  }}
                 />
               </div>
-              <div className="col-lg-6">
+            </div>
+            <div className="col-lg-6">
+              <div className="form-group">
+                {console.log(errors)}
                 <input
                   type="text"
                   placeholder="Last Name"
                   name="last_name"
-                  required="required"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.last_name}
+                  style={{
+                    border:
+                      errors.last_name && touched.last_name
+                        ? '1px solid red'
+                        : '',
+                  }}
                 />
               </div>
-              <div className="col-lg-6">
+            </div>
+            <div className="col-lg-6">
+              <div className="form-group">
                 <input
                   type="tel"
                   placeholder="Phone"
                   name="phone"
-                  required="required"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.phone}
+                  style={{
+                    border:
+                      errors.phone && touched.phone ? '1px solid red' : '',
+                  }}
                 />
               </div>
-              <div className="col-lg-6">
+            </div>
+            <div className="col-lg-6">
+              <div className="form-group">
                 <input
                   type="email"
                   placeholder="Email"
                   name="email"
-                  required="required"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.email}
+                  style={{
+                    border:
+                      errors.email && touched.email ? '1px solid red' : '',
+                  }}
                 />
               </div>
-              <div className="col-lg-12">
+            </div>
+            <div className="col-lg-12">
+              <div className="form-group">
                 <textarea
                   placeholder="Message"
                   name="message"
-                  required="required"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.message}
                   rows="4"
+                  style={{
+                    border:
+                      errors.message && touched.message ? '1px solid red' : '',
+                  }}
                 />
               </div>
             </div>
-            <button className="tst-btn" type="submit" name="button">
-              Send a message
-            </button>
+          </div>
 
-            <div id="contactFormStatus" className="tst-form-status"></div>
-          </form>
-        )}
-      </Formik>
-      {/* contact form end */}
-    </>
+          {status?.success && (
+            <div className="success-message">
+              <i className="fas fa-check-circle"></i> {status.success}
+            </div>
+          )}
+
+          {status?.error && (
+            <div className="error-message">
+              <i className="fas fa-exclamation-triangle"></i> {status.error}
+            </div>
+          )}
+
+          <button className="tst-btn" type="submit" disabled={isSubmitting}>
+            {isSubmitting ? 'Sending...' : 'Send a message'}
+          </button>
+        </form>
+      )}
+    </Formik>
   );
 };
+
 export default ContactForm;
